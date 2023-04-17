@@ -11,5 +11,5 @@ links:
   google-scholar: Ti3BqtMAAAAJ
 ---
 
-I am a second year PhD student under the supervision of Associate Professor Jan Zika in the School of Mathematics and Statistics at the University of New South Wales Sydney.
+I am a PhD student under the supervision of Associate Professor Jan Zika in the School of Mathematics and Statistics at the University of New South Wales, Sydney.
 My PhD is focusing on non-linear mixing processes in the Southern Ocean.
