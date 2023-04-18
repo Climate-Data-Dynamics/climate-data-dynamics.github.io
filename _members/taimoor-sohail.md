@@ -7,7 +7,7 @@ links:
   email: t.sohail@unsw.edu.au
   twitter: taimoorsohail_
   orcid: 0000-0002-4162-3269
-#  google-scholar: 
+  google-scholar: MggrCJIAAAAJ
 
 #  website: sites.google.com/view/taimoorsohail
 ---
