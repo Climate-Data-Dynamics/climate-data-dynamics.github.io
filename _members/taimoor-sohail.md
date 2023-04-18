@@ -5,8 +5,11 @@ description: Post-doctoral Research Associate
 #role: programmer
 links:
   email: t.sohail@unsw.edu.au
-  twitter: @taimoorsohail_
-  website: sites.google.com/view/taimoorsohail
+  twitter: taimoorsohail_
+  orcid: 0000-0002-4162-3269
+#  google-scholar: 
+
+#  website: sites.google.com/view/taimoorsohail
 ---
 
 I am a Postdoctoral Research Associate at the School of Mathematics and Statistics at the University of New South Wales Sydney.
