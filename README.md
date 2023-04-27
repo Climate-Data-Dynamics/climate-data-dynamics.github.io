@@ -1,5 +1,5 @@
 
-# Climate-Data-Dynamics's Website
+# Climate Data and Dynamics' lab website
 
 Visit **[climate-data-dynamics.github.io/climate-data-dynamics-lab-website](https://climate-data-dynamics.github.io/climate-data-dynamics-lab-website)** 🚀
 
