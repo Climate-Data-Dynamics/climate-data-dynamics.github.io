@@ -49,7 +49,7 @@ def log(message="\n--------------------\n", indent=0, level="", newline=True):
         "SUCCESS": "[black on #10B981]",
         "INFO": "[grey70]",
     }
-    color = palette.get(level) or palette.get(indent) or "[white]"
+    color = palette.get(level, "") or palette.get(indent, "") or "[white]"
     if newline:
         print()
     print(indent * "    " + color + str(message) + "[/]", end="", flush=True)
@@ -76,6 +76,8 @@ def format_date(date):
     format date as YYYY-MM-DD, or no date if malformed
     """
 
+    if isinstance(date, int):
+        return datetime.fromtimestamp(date // 1000.0).strftime("%Y-%m-%d")
     try:
         return datetime.strptime(date, "%Y-%m-%d").strftime("%Y-%m-%d")
     except Exception:
@@ -174,32 +176,33 @@ def cite_with_manubot(_id):
     citation["id"] = _id
 
     # title
-    citation["title"] = manubot.get("title", "")
+    citation["title"] = manubot.get("title", "").strip()
 
     # authors
     citation["authors"] = []
-    for author in manubot.get("author", []):
-        given = author.get("given", "")
-        family = author.get("family", "")
-        citation["authors"].append(given + " " + family)
+    for author in manubot.get("author", {}):
+        given = author.get("given", "").strip()
+        family = author.get("family", "").strip()
+        if given or family:
+            citation["authors"].append(" ".join([given, family]))
 
     # publisher
-    container = manubot.get("container-title", "")
-    collection = manubot.get("collection-title", "")
-    publisher = manubot.get("publisher", "")
+    container = manubot.get("container-title", "").strip()
+    collection = manubot.get("collection-title", "").strip()
+    publisher = manubot.get("publisher", "").strip()
     citation["publisher"] = container or publisher or collection or ""
 
     # extract date part
     def date_part(citation, index):
         try:
-            return citation.get("issued").get("date-parts")[0][index]
-        except Exception:
+            return citation["issued"]["date-parts"][0][index]
+        except (KeyError, IndexError, TypeError):
             return ""
 
     # date
     year = date_part(manubot, 0)
     if year:
-        # fallbacks for no month or day
+        # fallbacks for month and day
         month = date_part(manubot, 1) or "1"
         day = date_part(manubot, 2) or "1"
         citation["date"] = format_date(f"{year}-{month}-{day}")
@@ -208,7 +211,7 @@ def cite_with_manubot(_id):
         citation["date"] = ""
 
     # link
-    citation["link"] = manubot.get("URL", "")
+    citation["link"] = manubot.get("URL", "").strip()
 
     # return citation data
     return citation
