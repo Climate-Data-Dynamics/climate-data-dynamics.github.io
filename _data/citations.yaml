@@ -12,7 +12,7 @@
   orcid: 0000-0002-6340-4470
   plugin: sources.py
   file: sources.yaml
-  image: https://drive.google.com/file/d/195oOwUL2F1v-qMn2hJj4_yBYGKF9u6nL/view?usp=sharing
+  image: https://drive.google.com/uc?id=195oOwUL2F1v-qMn2hJj4_yBYGKF9u6nL
 - id: doi:10.6084/m9.figshare.20188739
   title: Ensemble member simulation data
   authors:
