@@ -9,7 +9,7 @@
   publisher: Journal of Physical Oceanography
   date: '2023-02-01'
   link: https://doi.org/gr6msf
-  orcid: 0000-0002-6340-4470
+  orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
   image: https://drive.google.com/uc?export=view&id=195oOwUL2F1v-qMn2hJj4_yBYGKF9u6nL
@@ -55,7 +55,7 @@
   publisher: Journal of Climate
   date: '2022-03-01'
   link: https://doi.org/gr6zp7
-  orcid: 0000-0002-4162-3269
+  orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
   image: https://journals.ametsoc.org/view/journals/clim/35/5/full-JCLI-D-21-0695.1-fA1.jpg
@@ -69,7 +69,7 @@
   publisher: Nature
   date: '2022-02-23'
   link: https://doi.org/gpmgg4
-  orcid: 0000-0002-4162-3269
+  orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-021-04370-w/MediaObjects/41586_2021_4370_Fig2_HTML.png?as=webp
@@ -85,7 +85,7 @@
   publisher: Geophysical Research Letters
   date: '2021-04-24'
   link: https://doi.org/gm5vzc
-  orcid: 0000-0002-4162-3269
+  orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
   image: https://agupubs.onlinelibrary.wiley.com/cms/asset/30fa5966-2efa-42f5-aea6-03ffea7e6842/grl62254-fig-0004-m.jpg
@@ -162,5 +162,822 @@
   date: '2023-02-07'
   link: http://www.scopus.com/inward/record.url?eid=2-s2.0-85084015653&partnerID=MN8TOARS
   orcid: 0000-0002-4162-3269
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/jcli-d-22-0267.1
+  title: Rectified Ocean Heat Uptake from Oscillatory Surface Forcing
+  authors:
+  - M. P. Pudig
+  - C. K. Yung
+  - J. D. Zika
+  - R. M. Holmes
+  publisher: Journal of Climate
+  date: '2023-04-15'
+  link: https://doi.org/gr6zss
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/jcli-d-21-0793.1
+  title: Mechanisms of Ocean Heat Uptake along and across Isopycnals
+  authors:
+  - "Louis Cl\xE9ment"
+  - E. L. McDonagh
+  - J. M. Gregory
+  - Q. Wu
+  - A. Marzocchi
+  - J. D. Zika
+  - A. J. G. Nurser
+  publisher: Journal of Climate
+  date: '2022-08-01'
+  link: https://doi.org/gr6zst
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s43017-022-00345-1
+  title: Past and future ocean warming
+  authors:
+  - Lijing Cheng
+  - Karina von Schuckmann
+  - John P. Abraham
+  - Kevin E. Trenberth
+  - Michael E. Mann
+  - Laure Zanna
+  - Matthew H. England
+  - Jan D. Zika
+  - John T. Fasullo
+  - Yongqiang Yu
+  - Yuying Pan
+  - Jiang Zhu
+  - Emily R. Newsom
+  - Ben Bronselaer
+  - Xiaopei Lin
+  publisher: Nature Reviews Earth &amp; Environment
+  date: '2022-10-18'
+  link: https://doi.org/gq3b4v
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1029/2020ms002333
+  title: The Geography of Numerical Mixing in a Suite of Global Ocean Models
+  authors:
+  - R. M. Holmes
+  - J. D. Zika
+  - S. M. Griffies
+  - A. McC. Hogg
+  - A. E. Kiss
+  - M. H. England
+  publisher: Journal of Advances in Modeling Earth Systems
+  date: '2021-07-01'
+  link: https://doi.org/gr6zsv
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/jpo-d-21-0008.1
+  title: 'Super Residual Circulation: a new perspective on ocean vertical heat transport'
+  authors:
+  - Abhishek Savita
+  - Jan D. Zika
+  - Catia M. Domingues
+  - Simon J. Marsland
+  - Gwyn Dafydd Evans
+  - Fabio Boeira Dias
+  - Ryan M. Holmes
+  - Andrew McC. Hogg
+  publisher: Journal of Physical Oceanography
+  date: '2021-05-21'
+  link: https://doi.org/gr6zsw
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/jcli-d-20-0355.1
+  title: Recent Water Mass Changes Reveal Mechanisms of Ocean Warming
+  authors:
+  - Jan D. Zika
+  - Jonathan M. Gregory
+  - Elaine L. McDonagh
+  - Alice Marzocchi
+  - "Louis Cl\xE9ment"
+  publisher: Journal of Climate
+  date: '2021-05-01'
+  link: https://doi.org/grnh6g
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/jpo-d-20-0212.1
+  title: 'Internal salt content: a useful framework for understanding the oceanic
+    branch of the water cycle'
+  authors:
+  - Christopher Bladwell
+  - Ryan M. Holmes
+  - Jan D. Zika
+  publisher: Journal of Physical Oceanography
+  date: '2021-04-13'
+  link: https://doi.org/gr6zsx
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/B978-0-12-821512-8.00010-4
+  title: The role of mixing in the large-scale ocean circulation
+  authors:
+  - Casimir de Lavergne
+  - Sjoerd Groeskamp
+  - Jan Zika
+  - Helen L. Johnson
+  publisher: Ocean Mixing
+  date: '2022-01-01'
+  link: https://doi.org/gr6zsz
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/jcli-d-20-0281.1
+  title: A Mass and Energy Conservation Analysis of Drift in the CMIP6 Ensemble
+  authors:
+  - Damien Irving
+  - Will Hobbs
+  - John Church
+  - Jan Zika
+  publisher: Journal of Climate
+  date: '2020-08-26'
+  link: https://doi.org/gr6zs2
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s00382-020-05261-y
+  title: Changing water cycle and freshwater transports in the Atlantic Ocean in observations
+    and CMIP5 models
+  authors:
+  - Nikolaos Skliris
+  - Robert Marsh
+  - Jennifer V. Mecking
+  - Jan D. Zika
+  publisher: Climate Dynamics
+  date: '2020-05-05'
+  link: https://doi.org/gr6zs3
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.5194/os-16-323-2020
+  title: Tracking the spread of a passive tracer through Southern Ocean water masses
+  authors:
+  - Jan D. Zika
+  - "Jean-Baptiste Sall\xE9e"
+  - Andrew J. S. Meijers
+  - Alberto C. Naveira-Garabato
+  - Andrew J. Watson
+  - Marie-Jose Messias
+  - Brian A. King
+  publisher: Ocean Science
+  date: '2020-03-12'
+  link: https://doi.org/gr6zs4
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/jpo-d-19-0188.1
+  title: The Observation-Based Application of a Regional Thermohaline Inverse Method
+    to Diagnose the Formation and Transformation of Water Masses North of the OSNAP
+    Array from 2013 to 2015
+  authors:
+  - Neill Mackay
+  - Chris Wilson
+  - N. Penny Holliday
+  - Jan D. Zika
+  publisher: Journal of Physical Oceanography
+  date: '2020-06-01'
+  link: https://doi.org/gr6zs5
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1029/2019gl085160
+  title: "Atlantic Ocean Heat Transport Enabled by Indo\u2010Pacific Heat Uptake and\
+    \ Mixing"
+  authors:
+  - Ryan M. Holmes
+  - Jan D. Zika
+  - Raffaele Ferrari
+  - Andrew F. Thompson
+  - Emily R. Newsom
+  - Matthew H. England
+  publisher: Geophysical Research Letters
+  date: '2019-12-11'
+  link: https://doi.org/gg4zzn
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/jpo-d-19-0139.1
+  title: "Reply to \u201CComments on \u2018Diathermal Heat Transport in a Global Ocean\
+    \ Model\u2019\u201D"
+  authors:
+  - Ryan M. Holmes
+  - Jan D. Zika
+  - Matthew H. England
+  publisher: Journal of Physical Oceanography
+  date: '2019-08-01'
+  link: https://doi.org/gr6zs6
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/JPO-D-18-0098.1
+  title: Diathermal Heat Transport in a Global Ocean Model
+  authors:
+  - Ryan M. Holmes
+  - Jan D. Zika
+  - Matthew H. England
+  publisher: Journal of Physical Oceanography
+  date: '2019-01-01'
+  link: https://doi.org/gfs9z9
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1146/annurev-marine-010318-095421
+  title: The Water Mass Transformation Framework for Ocean Physics and Biogeochemistry
+  authors:
+  - Sjoerd Groeskamp
+  - Stephen M. Griffies
+  - Daniele Iudicone
+  - Robert Marsh
+  - A.J. George Nurser
+  - Jan D. Zika
+  publisher: Annual Review of Marine Science
+  date: '2019-01-03'
+  link: https://doi.org/gfs9nw
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: ':'
+  title: 'The Ocean: A contour-wise view '
+  publisher: Bulletin of the Australian Meteorological and Oceanographic Society
+  date: '2020-11-13'
+  link: https://issuu.com/amosadmin/docs/bulletin_vol_25_no.2_april_2012
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/JTECH-D-17-0198.1
+  title: A Regional Thermohaline Inverse Method for Estimating Circulation and Mixing
+    in the Arctic and Subpolar North Atlantic
+  authors:
+  - Neill Mackay
+  - Chris Wilson
+  - Jan Zika
+  - N. Penny Holliday
+  publisher: Journal of Atmospheric and Oceanic Technology
+  date: '2018-12-01'
+  link: https://doi.org/gr6zs7
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1088/1748-9326/aace42
+  title: 'Improved estimates of water cycle change from ocean salinity: the key role
+    of ocean warming'
+  authors:
+  - Jan D Zika
+  - Nikolaos Skliris
+  - Adam T Blaker
+  - Robert Marsh
+  - A J George Nurser
+  - Simon A Josey
+  publisher: Environmental Research Letters
+  date: '2018-07-01'
+  link: https://doi.org/gmjfh3
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.ocemod.2017.11.008
+  title: 'Lagrangian ocean analysis: Fundamentals and practices'
+  authors:
+  - Erik van Sebille
+  - Stephen M. Griffies
+  - Ryan Abernathey
+  - Thomas P. Adams
+  - Pavel Berloff
+  - Arne Biastoch
+  - Bruno Blanke
+  - Eric P. Chassignet
+  - Yu Cheng
+  - Colin J. Cotter
+  - Eric Deleersnijder
+  - "Kristofer D\xF6\xF6s"
+  - Henri F. Drake
+  - Sybren Drijfhout
+  - Stefan F. Gary
+  - Arnold W. Heemink
+  - Joakim Kjellsson
+  - Inga Monika Koszalka
+  - Michael Lange
+  - Camille Lique
+  - Graeme A. MacGilchrist
+  - Robert Marsh
+  - C. Gabriela Mayorga Adame
+  - Ronan McAdam
+  - Francesco Nencioli
+  - Claire B. Paris
+  - Matthew D. Piggott
+  - Jeff A. Polton
+  - "Siren R\xFChs"
+  - Syed H.A.M. Shah
+  - Matthew D. Thomas
+  - Jinbo Wang
+  - Phillip J. Wolfram
+  - Laure Zanna
+  - Jan D. Zika
+  publisher: Ocean Modelling
+  date: '2018-01-01'
+  link: https://doi.org/gcrb59
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s00382-017-4053-7
+  title: Mediterranean sea water budget long-term trend inferred from salinity observations
+  authors:
+  - N. Skliris
+  - J. D. Zika
+  - L. Herold
+  - S. A. Josey
+  - R. Marsh
+  publisher: Climate Dynamics
+  date: '2018-01-10'
+  link: https://doi.org/gfcbq5
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1029/2018GL079986
+  title: The Cold Transit of Southern Ocean Upwelling
+  authors:
+  - Dafydd Gwyn Evans
+  - Jan D. Zika
+  - Alberto C. Naveira Garabato
+  - A. J. George Nurser
+  publisher: Geophysical Research Letters
+  date: '2018-12-21'
+  link: https://doi.org/gfpf9v
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/jpo-d-16-0125.1
+  title: Mixing Inferred from an Ocean Climatology and Surface Fluxes
+  authors:
+  - Sjoerd Groeskamp
+  - Bernadette M. Sloyan
+  - Jan D. Zika
+  - Trevor J. McDougall
+  publisher: Journal of Physical Oceanography
+  date: '2017-03-01'
+  link: https://doi.org/gr6zs8
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/jpo-d-16-0089.1
+  title: Recent Wind-Driven Variability in Atlantic Water Mass Distribution and Meridional
+    Overturning Circulation
+  authors:
+  - Dafydd Gwyn Evans
+  - John Toole
+  - Gael Forget
+  - Jan D. Zika
+  - Alberto C. Naveira Garabato
+  - A. J. George Nurser
+  - Lisan Yu
+  publisher: Journal of Physical Oceanography
+  date: '2017-03-01'
+  link: https://doi.org/f92c74
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/2017GL075182
+  title: Can the Ocean's Heat Engine Control Horizontal Circulation? Insights From
+    the Caspian Sea
+  authors:
+  - Nicolas Bruneau
+  - Jan Zika
+  - Ralf Toumi
+  publisher: Geophysical Research Letters
+  date: '2017-10-09'
+  link: https://doi.org/gchkn3
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1098/rsta.2016.0324
+  title: High-latitude ocean ventilation and its role in Earth's climate transitions
+  authors:
+  - Alberto C. Naveira Garabato
+  - Graeme A. MacGilchrist
+  - Peter J. Brown
+  - D. Gwyn Evans
+  - Andrew J. S. Meijers
+  - Jan D. Zika
+  publisher: 'Philosophical Transactions of the Royal Society A: Mathematical, Physical
+    and Engineering Sciences'
+  date: '2017-08-07'
+  link: https://doi.org/gr6zs9
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/BAMS-D-16-0057.1
+  title: 'Overturning in the Subpolar North Atlantic Program: A New International
+    Ocean Observing System'
+  authors:
+  - M. Susan Lozier
+  - Sheldon Bacon
+  - Amy S. Bower
+  - Stuart A. Cunningham
+  - M. Femke de Jong
+  - Laura de Steur
+  - Brad deYoung
+  - "J\xFCrgen Fischer"
+  - Stefan F. Gary
+  - Blair J. W. Greenan
+  - Patrick Heimbach
+  - Naomi P. Holliday
+  - "Lo\xEFc Houpert"
+  - Mark E. Inall
+  - William E. Johns
+  - Helen L. Johnson
+  - Johannes Karstensen
+  - Feili Li
+  - Xiaopei Lin
+  - Neill Mackay
+  - David P. Marshall
+  - "Herl\xE9 Mercier"
+  - Paul G. Myers
+  - Robert S. Pickart
+  - Helen R. Pillar
+  - Fiammetta Straneo
+  - Virginie Thierry
+  - Robert A. Weller
+  - Richard G. Williams
+  - Chris Wilson
+  - Jiayan Yang
+  - Jian Zhao
+  - Jan D. Zika
+  publisher: Bulletin of the American Meteorological Society
+  date: '2017-04-01'
+  link: https://doi.org/grnh27
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/JCLI-D-15-0759.1
+  title: "The Coupled Ocean\u2013Atmosphere Hydrothermohaline Circulation"
+  authors:
+  - "Kristofer D\xF6\xF6s"
+  - Joakim Kjellsson
+  - Jan Zika
+  - "Fr\xE9d\xE9ric Lalibert\xE9"
+  - Laurent Brodeau
+  - Aitor Aldama Campino
+  publisher: Journal of Climate
+  date: '2017-01-01'
+  link: https://doi.org/f9kp3z
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/JPO-D-15-0025.1
+  title: A Microscale View of Mixing and Overturning across the Antarctic Circumpolar
+    Current
+  authors:
+  - Alberto C. Naveira Garabato
+  - Kurt L. Polzin
+  - Raffaele Ferrari
+  - Jan D. Zika
+  - Alexander Forryan
+  publisher: Journal of Physical Oceanography
+  date: '2016-01-01'
+  link: https://doi.org/f7753v
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/2016JC012091
+  title: Assessing recent air-sea freshwater flux changes using a surface temperature-salinity
+    space framework
+  authors:
+  - Jeremy P. Grist
+  - Simon A. Josey
+  - Jan D. Zika
+  - Dafydd Gwyn Evans
+  - Nikolaos Skliris
+  publisher: 'Journal of Geophysical Research: Oceans'
+  date: '2016-12-01'
+  link: https://doi.org/f9pzfv
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/srep38752
+  title: Global water cycle amplifying at less than the Clausius-Clapeyron rate
+  authors:
+  - Nikolaos Skliris
+  - Jan D. Zika
+  - George Nurser
+  - Simon A. Josey
+  - Robert Marsh
+  publisher: Scientific Reports
+  date: '2016-12-09'
+  link: https://doi.org/f9dn25
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/2015GL066658
+  title: The thermodynamic balance of the Weddell Gyre
+  authors:
+  - Alberto C. Naveira Garabato
+  - Jan D. Zika
+  - "Lo\xEFc Jullion"
+  - Peter J. Brown
+  - Paul R. Holland
+  - Michael P. Meredith
+  - Sheldon Bacon
+  publisher: Geophysical Research Letters
+  date: '2016-01-14'
+  link: https://doi.org/gr6ztb
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/2015GL064156
+  title: Changes in ocean vertical heat transport with global warming
+  authors:
+  - Jan D. Zika
+  - "Fr\xE9d\xE9ric Lalibert\xE9"
+  - Lawrence R. Mudryk
+  - Willem P. Sijp
+  - A. J. G. Nurser
+  publisher: Geophysical Research Letters
+  date: '2015-06-28'
+  link: https://doi.org/f7jzpq
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1126/science.1257103
+  title: Constrained work output of the moist atmospheric heat engine in a warming
+    climate
+  authors:
+  - "F. Lalibert\xE9"
+  - J. Zika
+  - L. Mudryk
+  - P. J. Kushner
+  - J. Kjellsson
+  - "K. D\xF6\xF6s"
+  publisher: Science
+  date: '2015-01-30'
+  link: https://doi.org/f3nmfb
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/JCLI-D-15-0273.1
+  title: "Maintenance and Broadening of the Ocean\u2019s Salinity Distribution by\
+    \ the Water Cycle"
+  authors:
+  - Jan D. Zika
+  - Nikolaos Skliris
+  - A. J. George Nurser
+  - Simon A. Josey
+  - Lawrence Mudryk
+  - "Fr\xE9d\xE9ric Lalibert\xE9"
+  - Robert Marsh
+  publisher: Journal of Climate
+  date: '2015-12-15'
+  link: https://doi.org/f73bz4
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/JPO-D-14-0053.1
+  title: Sensitivity of Antarctic Circumpolar Current Transport and Eddy Activity
+    to Wind Patterns in the Southern Ocean
+  authors:
+  - Clothilde E. Langlais
+  - Stephen R. Rintoul
+  - Jan D. Zika
+  publisher: Journal of Physical Oceanography
+  date: '2015-04-01'
+  link: https://doi.org/f68qs8
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/JPO-D-14-0039.1
+  title: A Thermohaline Inverse Method for Estimating Diathermohaline Circulation
+    and Mixing
+  authors:
+  - Sjoerd Groeskamp
+  - Jan D. Zika
+  - Bernadette M. Sloyan
+  - Trevor J. McDougall
+  - Peter C. McIntosh
+  publisher: Journal of Physical Oceanography
+  date: '2014-10-01'
+  link: https://doi.org/f6khjw
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s00382-013-1992-5
+  title: 'Revisiting meridional overturing bistability using a minimal set of state
+    variables: stochastic theory'
+  authors:
+  - Willem P. Sijp
+  - Jan D. Zika
+  - "Marc d\u2019Orgeville"
+  - Matthew H. England
+  publisher: Climate Dynamics
+  date: '2013-11-19'
+  link: https://doi.org/f6ghht
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/JAS-D-13-0173.1
+  title: The Atmospheric General Circulation in Thermodynamical Coordinates
+  authors:
+  - Joakim Kjellsson
+  - "Kristofer D\xF6\xF6s"
+  - "Fr\xE9d\xE9ric B. Lalibert\xE9"
+  - Jan D. Zika
+  publisher: Journal of the Atmospheric Sciences
+  date: '2014-02-27'
+  link: https://doi.org/f24ckr
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/2014JC010097
+  title: The imprint of Southern Ocean overturning on seasonal water mass variability
+    in Drake Passage
+  authors:
+  - Dafydd Gwyn Evans
+  - Jan D. Zika
+  - Alberto C. Naveira Garabato
+  - A. J. George Nurser
+  publisher: 'Journal of Geophysical Research: Oceans'
+  date: '2014-11-01'
+  link: https://doi.org/gr6ztc
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/JPO-D-13-0213.1
+  title: The Representation of Ocean Circulation and Variability in Thermodynamic
+    Coordinates
+  authors:
+  - Sjoerd Groeskamp
+  - Jan D. Zika
+  - Trevor J. McDougall
+  - Bernadette M. Sloyan
+  - "Fr\xE9d\xE9ric Lalibert\xE9"
+  publisher: Journal of Physical Oceanography
+  date: '2014-07-01'
+  link: https://doi.org/f59xtq
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/JPO-D-13-091.1
+  title: Acceleration of the Antarctic Circumpolar Current by Wind Stress along the
+    Coast of Antarctica
+  authors:
+  - Jan D. Zika
+  - Julien Le Sommer
+  - Carolina O. Dufour
+  - Alberto Naveira-Garabato
+  - Adam Blaker
+  publisher: Journal of Physical Oceanography
+  date: '2013-12-01'
+  link: https://doi.org/f5jjds
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/JPO-D-12-0178.1
+  title: Vertical Eddy Fluxes in the Southern Ocean
+  authors:
+  - Jan D. Zika
+  - Julien Le Sommer
+  - Carolina O. Dufour
+  - Jean-Marc Molines
+  - Bernard Barnier
+  - Pierre Brasseur
+  - "Rapha\xEBl Dussin"
+  - Thierry Penduff
+  - Daniele Iudicone
+  - Andrew Lenton
+  - Gurvan Madec
+  - Pierre Mathiot
+  - James Orr
+  - Emily Shuckburgh
+  - Frederic Vivier
+  publisher: Journal of Physical Oceanography
+  date: '2013-05-01'
+  link: https://doi.org/f4zhn4
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/JPO-D-12-0179.1
+  title: Vertical Heat Transport by Ocean Circulation and the Role of Mechanical and
+    Haline Forcing
+  authors:
+  - Jan D. Zika
+  - Willem P. Sijp
+  - Matthew H. England
+  publisher: Journal of Physical Oceanography
+  date: '2013-10-01'
+  link: https://doi.org/gr6ztd
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/JCLI-D-11-00309.1
+  title: Standing and Transient Eddies in the Response of the Southern Ocean Meridional
+    Overturning to the Southern Annular Mode
+  authors:
+  - C. O. Dufour
+  - J. Le Sommer
+  - J. D. Zika
+  - M. Gehlen
+  - J. C. Orr
+  - P. Mathiot
+  - B. Barnier
+  publisher: Journal of Climate
+  date: '2012-05-11'
+  link: https://doi.org/f4b9c2
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1029/2012GL051004
+  title: Tasman leakage in a fine-resolution ocean model
+  authors:
+  - Erik van Sebille
+  - Matthew H. England
+  - Jan D. Zika
+  - Bernadette M. Sloyan
+  publisher: Geophysical Research Letters
+  date: '2012-03-24'
+  link: https://doi.org/gr6ztf
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/JPO-D-11-0139.1
+  title: The Ocean Circulation in Thermohaline Coordinates
+  authors:
+  - Jan D. Zika
+  - Matthew H. England
+  - Willem P. Sijp
+  publisher: Journal of Physical Oceanography
+  date: '2012-05-01'
+  link: https://doi.org/d2jwrk
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/JCLI-D-11-00077.1
+  title: Sea Level Expression of Intrinsic and Forced Ocean Variabilities at Interannual
+    Time Scales
+  authors:
+  - Thierry Penduff
+  - "M\xE9lanie Juza"
+  - Bernard Barnier
+  - Jan Zika
+  - William K. Dewar
+  - Anne-Marie Treguier
+  - Jean-Marc Molines
+  - Nicole Audiffren
+  publisher: Journal of Climate
+  date: '2011-11-01'
+  link: https://doi.org/fd9dxf
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/2009JPO4208.1
+  title: A Tracer-Contour Inverse Method for Estimating Ocean Circulation and Mixing
+  authors:
+  - Jan D. Zika
+  - Trevor J. McDougall
+  - Bernadette M. Sloyan
+  publisher: Journal of Physical Oceanography
+  date: '2010-01-01'
+  link: https://doi.org/d96kck
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/2010JPO4360.1
+  title: 'Weak Mixing in the Eastern North Atlantic: An Application of the Tracer-Contour
+    Inverse Method'
+  authors:
+  - Jan D. Zika
+  - Trevor J. McDougall
+  - Bernadette M. Sloyan
+  publisher: Journal of Physical Oceanography
+  date: '2010-08-01'
+  link: https://doi.org/cxgpfj
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/2009JPO4052.1
+  title: Diagnosing the Southern Ocean Overturning from Tracer Fields
+  authors:
+  - Jan D. Zika
+  - Bernadette M. Sloyan
+  - Trevor J. McDougall
+  publisher: Journal of Physical Oceanography
+  date: '2009-11-01'
+  link: https://doi.org/dq34km
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/2007JPO3507.1
+  title: Vertical and Lateral Mixing Processes Deduced from the Mediterranean Water
+    Signature in the North Atlantic
+  authors:
+  - Jan D. Zika
+  - Trevor J. McDougall
+  publisher: Journal of Physical Oceanography
+  date: '2008-01-01'
+  link: https://doi.org/dq42gm
+  orcid: 0000-0003-3462-3559
   plugin: orcid.py
   file: orcid.yaml
