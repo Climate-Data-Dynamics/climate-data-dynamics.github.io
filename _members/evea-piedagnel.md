@@ -6,6 +6,7 @@ role: Masters
 links:
   email: evea.piedagnel@etu.unistra.fr
   github : EveaCPiedagnel
+  twitter : eveapiedagnel
 ---
 
 
