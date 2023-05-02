@@ -4,12 +4,14 @@
   image: https://agupubs.onlinelibrary.wiley.com/cms/asset/30fa5966-2efa-42f5-aea6-03ffea7e6842/grl62254-fig-0004-m.jpg
 - id: doi:10.1038/s41586-021-04370-w
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-021-04370-w/MediaObjects/41586_2021_4370_Fig2_HTML.png?as=webp
-# - id: doi:10.1175/jcli-d-21-0695.1
-#   image: 
-# - id: doi:10.1029/2020GL089455
-#   image: 
-# - id: doi:10.1175/jpo-d-19-0264.1
-#   image: 
+- id: doi:10.1175/jcli-d-21-0695.1
+  image: https://journals.ametsoc.org/view/journals/clim/35/5/full-JCLI-D-21-0695.1-fA1.jpg
+- id: doi:10.1175/JCLI-D-22-0363.1
+  image: https://journals.ametsoc.org/view/journals/clim/36/9/full-JCLI-D-22-0363.1-f2.jpg
+- id: doi:10.1029/2020GL089455
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/8e000b8a-f1d7-4784-9462-05736b339a09/grl61613-fig-0001-m.jpg
+- id: doi:10.1175/jpo-d-19-0264.1
+  image: https://journals.ametsoc.org/view/journals/phoc/50/6/full-JPO-D-19-0264.1-f1.jpg
 - id: doi:10.1029/2018jc014883
   image: https://agupubs.onlinelibrary.wiley.com/cms/asset/8e6aeeeb-6fed-49fe-8c8a-6cc1caf0a86c/jgrc23463-fig-0001-m.jpg
 - id: doi:10.1029/2018GL077711
