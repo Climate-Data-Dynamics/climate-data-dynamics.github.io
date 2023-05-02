@@ -164,6 +164,87 @@
   orcid: 0000-0002-4162-3269
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.21203/rs.3.rs-1929237/v1
+  title: On Asymmetric Internal Hemispheric Variability in the Ocean in 2005-2015
+  authors:
+  - Saurabh Rathore
+  - Nathaniel Bindoff
+  - Helen Philllips
+  - Ming Feng
+  publisher: Research Square Platform LLC
+  date: '2022-08-11'
+  link: https://doi.org/gr6ztt
+  orcid: 0000-0001-6677-6838
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/fclim.2022.861477
+  title: Interactions Between a Marine Heatwave and Tropical Cyclone Amphan in the
+    Bay of Bengal in 2020
+  authors:
+  - Saurabh Rathore
+  - Rishav Goyal
+  - Babita Jangir
+  - Caroline C. Ummenhofer
+  - Ming Feng
+  - Mayank Mishra
+  publisher: Frontiers in Climate
+  date: '2022-06-07'
+  link: https://doi.org/gr6ztv
+  orcid: 0000-0001-6677-6838
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/jcli-d-20-0625.1
+  title: Improving Australian Rainfall Prediction Using Sea Surface Salinity
+  authors:
+  - Saurabh Rathore
+  - Nathaniel L. Bindoff
+  - Caroline C. Ummenhofer
+  - Helen E. Phillips
+  - Ming Feng
+  - Mayank Mishra
+  publisher: Journal of Climate
+  date: '2021-04-01'
+  link: https://doi.org/gr6ztw
+  orcid: 0000-0001-6677-6838
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/jcli-d-19-0579.1
+  title: Near-Surface Salinity Reveals the Oceanic Sources of Moisture for Australian
+    Precipitation through Atmospheric Moisture Transport
+  authors:
+  - Saurabh Rathore
+  - Nathaniel L. Bindoff
+  - Caroline C. Ummenhofer
+  - Helen E. Phillips
+  - Ming Feng
+  publisher: Journal of Climate
+  date: '2020-08-01'
+  link: https://doi.org/gr6ztx
+  orcid: 0000-0001-6677-6838
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41467-020-15754-3
+  title: Recent hemispheric asymmetry in global ocean warming induced by climate change
+    and internal variability
+  authors:
+  - Saurabh Rathore
+  - Nathaniel L. Bindoff
+  - Helen E. Phillips
+  - Ming Feng
+  publisher: Nature Communications
+  date: '2020-04-24'
+  link: https://doi.org/gnnpff
+  orcid: 0000-0001-6677-6838
+  plugin: orcid.py
+  file: orcid.yaml
+- id: ':'
+  title: 'The Ocean: A contour-wise view '
+  publisher: Bulletin of the Australian Meteorological and Oceanographic Society
+  date: '2020-11-13'
+  link: https://issuu.com/amosadmin/docs/bulletin_vol_25_no.2_april_2012
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1175/jcli-d-22-0267.1
   title: Rectified Ocean Heat Uptake from Oscillatory Surface Forcing
   authors:
@@ -400,14 +481,6 @@
   publisher: Annual Review of Marine Science
   date: '2019-01-03'
   link: https://doi.org/gfs9nw
-  orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
-- id: ':'
-  title: 'The Ocean: A contour-wise view '
-  publisher: Bulletin of the Australian Meteorological and Oceanographic Society
-  date: '2020-11-13'
-  link: https://issuu.com/amosadmin/docs/bulletin_vol_25_no.2_april_2012
   orcid: 0000-0003-3462-3559
   plugin: orcid.py
   file: orcid.yaml
