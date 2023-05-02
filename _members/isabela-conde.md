@@ -1,6 +1,6 @@
 ---
 name: Isabela Conde
-image: images/isabela_headshot.jpeg
+image: images/isabela_headshot.jpg
 role: phd
 #group: alum
 links:
