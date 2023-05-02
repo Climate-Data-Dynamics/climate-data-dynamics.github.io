@@ -68,8 +68,9 @@
   date: '2022-02-23'
   link: https://doi.org/gpmgg4
   orcid: 0000-0002-4162-3269
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-021-04370-w/MediaObjects/41586_2021_4370_Fig2_HTML.png?as=webp
 - id: doi:10.1029/2020gl091439
   title: "Fifty Year Trends in Global Ocean Heat Content Traced to Surface Heat Fluxes\
     \ in the Sub\u2010Polar Ocean"
@@ -123,8 +124,9 @@
   date: '2019-06-01'
   link: https://doi.org/gr6zqb
   orcid: 0000-0002-4162-3269
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/8e6aeeeb-6fed-49fe-8c8a-6cc1caf0a86c/jgrc23463-fig-0001-m.jpg
 - id: doi:10.1029/2018GL077711
   title: Convection Enhances Mixing in the Southern Ocean
   authors:
@@ -135,8 +137,9 @@
   date: '2018-05-11'
   link: https://doi.org/gdjx8s
   orcid: 0000-0002-4162-3269
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/bcdbbe4d-96ae-46f5-a0f0-def70c529fb0/grl57301-fig-0001-m.jpg
 - id: eid:2-s2.0-85084095712
   title: Heat and mass transport in geostrophic horizontal convection with surface
     wind stress
