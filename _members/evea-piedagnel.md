@@ -1,7 +1,8 @@
 ---
 name: Evéa Piedagnel
 image: images/Evea_headshot.jpeg
-role: Masters
+description : Masters student 
+role: masters
 #group: alum
 links:
   email: evea.piedagnel@etu.unistra.fr
