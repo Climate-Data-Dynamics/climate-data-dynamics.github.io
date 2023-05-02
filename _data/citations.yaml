@@ -43,8 +43,9 @@
   date: '2023-05-01'
   link: https://doi.org/gr6zp6
   orcid: 0000-0002-4162-3269
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/clim/36/9/full-JCLI-D-22-0363.1-f2.jpg
 - id: doi:10.1175/jcli-d-21-0695.1
   title: Adiabatic and Diabatic Signatures of Ocean Temperature Variability
   authors:
@@ -163,15 +164,3 @@
   orcid: 0000-0002-4162-3269
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1175/JCLI-D-22-0363.1
-  title: Water-Mass Coordinates Isolate the Historical Ocean Warming Signal
-  authors:
-  - T. Sohail
-  - R. M. Holmes
-  - J.D. Zika
-  publisher: Journal of Climate
-  date: '2023-05-01'
-  link: https://doi.org/gr6zp6
-  image: https://journals.ametsoc.org/view/journals/clim/36/9/full-JCLI-D-22-0363.1-f2.jpg
-  plugin: sources.py
-  file: sources.yaml
