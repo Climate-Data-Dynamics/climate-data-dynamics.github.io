@@ -2,7 +2,7 @@
 name: Dr Saurabh Rathore
 image: images/Saurabh_headshot.jpg
 description: Post-doctoral Research Associate
-role: Postdoc
+role: postdoc
 links:
   email:          saurabh.rathore@unsw.edu.au
   linkedin:       saurabh-rathore-08287579/
