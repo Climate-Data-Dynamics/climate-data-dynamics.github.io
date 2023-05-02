@@ -29,10 +29,10 @@ defaults:
     values:
       layout: member
   # markdown files in /_posts
-  - scope:
-      type: "posts"
-    values:
-      layout: post
+  #- scope:
+  #    type: "posts"
+  #  values:
+  #    layout: post
 
 collections:
   # generate page for each member
