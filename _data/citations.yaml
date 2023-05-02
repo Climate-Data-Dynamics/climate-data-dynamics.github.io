@@ -33,6 +33,129 @@
   orcid: 0000-0002-6340-4470
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1175/jcli-d-22-0363.1
+  title: Water-Mass Coordinates Isolate the Historical Ocean Warming Signal
+  authors:
+  - T. Sohail
+  - R. M. Holmes
+  - J.D. Zika
+  publisher: Journal of Climate
+  date: '2023-05-01'
+  link: https://doi.org/gr6zp6
+  orcid: 0000-0002-4162-3269
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/jcli-d-21-0695.1
+  title: Adiabatic and Diabatic Signatures of Ocean Temperature Variability
+  authors:
+  - R. M. Holmes
+  - T. Sohail
+  - J. D. Zika
+  publisher: Journal of Climate
+  date: '2022-03-01'
+  link: https://doi.org/gr6zp7
+  orcid: 0000-0002-4162-3269
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41586-021-04370-w
+  title: Observed poleward freshwater transport since 1970
+  authors:
+  - Taimoor Sohail
+  - Jan D. Zika
+  - Damien B. Irving
+  - John A. Church
+  publisher: Nature
+  date: '2022-02-23'
+  link: https://doi.org/gpmgg4
+  orcid: 0000-0002-4162-3269
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1029/2020gl091439
+  title: "Fifty Year Trends in Global Ocean Heat Content Traced to Surface Heat Fluxes\
+    \ in the Sub\u2010Polar Ocean"
+  authors:
+  - Taimoor Sohail
+  - Damien B. Irving
+  - Jan D. Zika
+  - Ryan M. Holmes
+  - John A. Church
+  publisher: Geophysical Research Letters
+  date: '2021-04-24'
+  link: https://doi.org/gm5vzc
+  orcid: 0000-0002-4162-3269
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1029/2020GL089455
+  title: Roles of Shear and Convection in Driving Mixing in the Ocean
+  authors:
+  - Gregory N. Ivey
+  - Cynthia E. Bluteau
+  - Bishakhdatta Gayen
+  - Nicole L. Jones
+  - Taimoor Sohail
+  publisher: Geophysical Research Letters
+  date: '2021-02-09'
+  link: https://doi.org/gr6zp8
+  orcid: 0000-0002-4162-3269
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/jpo-d-19-0264.1
+  title: The Dynamics of Mixed Layer Deepening during Open-Ocean Convection
+  authors:
+  - Taimoor Sohail
+  - Bishakhdatta Gayen
+  - Andrew McC. Hogg
+  publisher: Journal of Physical Oceanography
+  date: '2020-06-01'
+  link: https://doi.org/gr6zp9
+  orcid: 0000-0002-4162-3269
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1029/2018jc014883
+  title: The Impact of Turbulence and Convection on Transport in the Southern Ocean
+  authors:
+  - Taimoor Sohail
+  - Catherine A. Vreugdenhil
+  - Bishakhdatta Gayen
+  - Andrew McC. Hogg
+  publisher: 'Journal of Geophysical Research: Oceans'
+  date: '2019-06-01'
+  link: https://doi.org/gr6zqb
+  orcid: 0000-0002-4162-3269
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1029/2018GL077711
+  title: Convection Enhances Mixing in the Southern Ocean
+  authors:
+  - Taimoor Sohail
+  - Bishakhdatta Gayen
+  - Andrew McC. Hogg
+  publisher: Geophysical Research Letters
+  date: '2018-05-11'
+  link: https://doi.org/gdjx8s
+  orcid: 0000-0002-4162-3269
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85084095712
+  title: Heat and mass transport in geostrophic horizontal convection with surface
+    wind stress
+  publisher: Proceedings of the 21st Australasian Fluid Mechanics Conference, AFMC
+    2018
+  date: '2023-02-07'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-85084095712&partnerID=MN8TOARS
+  orcid: 0000-0002-4162-3269
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85084015653
+  title: A turbulence-resolving model for the southern ocean circulation with varying
+    wind forcing
+  publisher: Proceedings of the 20th Australasian Fluid Mechanics Conference, AFMC
+    2016
+  date: '2023-02-07'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-85084015653&partnerID=MN8TOARS
+  orcid: 0000-0002-4162-3269
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1371/journal.pcbi.1007128
   title: Open collaborative writing with Manubot
   authors:
