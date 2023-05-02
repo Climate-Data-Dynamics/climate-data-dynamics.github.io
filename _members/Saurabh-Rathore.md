@@ -5,10 +5,10 @@ description: Post-doctoral Research Associate
 role: Research Associate
 links:
   email:          saurabh.rathore@unsw.edu.au
-  linkedin:       https://www.linkedin.com/in/saurabh-rathore-08287579/
-  orcid:          https://orcid.org/0000-0001-6677-6838
-  researchgate:   https://www.researchgate.net/profile/Saurabh-Rathore-2
-  google-scholar: https://scholar.google.com/citations?user=Mov2n_oAAAAJ&hl=en
+  linkedin:       saurabh-rathore-08287579/
+  orcid:          0000-0001-6677-6838
+  researchgate:   Saurabh-Rathore-2
+  google-scholar: user=Mov2n_oAAAAJ&hl=en
 
 #  website: sites.google.com/view/saurabhrathore
 ---
