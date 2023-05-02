@@ -3,7 +3,7 @@
 
 # Climate-Data-Dynamics's Website
 
-An engaging 1-3 sentence description of your lab.
+We use data and dynamics to understand the ocean and climate.
 
 {% include section.html %}
 
