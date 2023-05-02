@@ -1,6 +1,8 @@
 ---
 name: Saurabh Rathore
 image: images/Saurabh_headshot.jpg
+aliases:
+  - Saurabh Rathore
 description: Post-doctoral Research Associate
 role: postdoc
 links:
