@@ -3,6 +3,10 @@ name: Dr Taimoor Sohail
 image: images/taimoor_headshot.jpg
 description: Post-doctoral Research Associate
 role: postdoc
+aliases:
+  - T. Sohail
+  - T Sohail
+  - Taimoor Sohail
 links:
   email: t.sohail@unsw.edu.au
   twitter: taimoorsohail_
