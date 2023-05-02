@@ -6,7 +6,7 @@ aliases:
   - J.D. Zika
   - J Zika
 links:
-  home-page:https://sites.google.com/view/janzika/home
+  home-page: https://sites.google.com/view/janzika/home
   orcid: 0000-0001-8713-9213
 ---
 
