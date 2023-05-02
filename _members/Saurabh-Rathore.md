@@ -1,5 +1,5 @@
 ---
-name: Saurabh Rathore
+name: Dr Saurabh Rathore
 image: images/Saurabh_headshot.jpg
 aliases:
   - Saurabh Rathore
