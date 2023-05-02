@@ -1,5 +1,5 @@
 ---
-name: Dr Taimoor Sohail
+name: Taimoor Sohail
 image: images/taimoor_headshot.jpg
 description: Post-doctoral Research Associate
 role: postdoc
