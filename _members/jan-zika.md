@@ -1,6 +1,6 @@
 ---
 name: Jan Zika
-#image: Jan_Zika_Profile_Pic_2019zoomin.jpeg
+#image: images/Jan_Zika_Profile_Pic_2019zoomin.jpeg
 role: pi
 aliases:
   - J.D. Zika
