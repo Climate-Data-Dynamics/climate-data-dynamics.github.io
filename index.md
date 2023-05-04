@@ -1,7 +1,7 @@
 ---
 ---
 
-# Climate-Data-Dynamics's Website
+# Climate Data and Dynamics Lab Website
 
 We use data and dynamics to understand the ocean and climate.
 
@@ -26,7 +26,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="https://agupubs.onlinelibrary.wiley.com/cms/asset/30fa5966-2efa-42f5-aea6-03ffea7e6842/grl62254-fig-0004-m.jpg"
   link="research"
   title="Our Research"
   text=text
@@ -59,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our team is based in the School of Mathematics and Statistics and the Climate Change Research Centre at the University of New South Wales.
 
 {%
   include button.html
