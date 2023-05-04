@@ -1,5 +1,7 @@
 ---
 name: Josef Bisits
+aliases:
+  - Josef I. Bisits
 image: images/joey-headshot.jpeg
 role: phd
 #group: alum
