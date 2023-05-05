@@ -26,8 +26,8 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% capture content %}
 
-{% include figure.html image="images/unsw-portrait.png" %}
-{% include figure.html image="images/ACEAS_logo.png" %}
+{% include figure.html image="images/unsw_logo.png" link="https://www.unsw.edu.au/science/our-schools/maths"%}
+{% include figure.html image="images/ACEAS_logo.png" link="https://antarctic.org.au/" %}
 {% include figure.html image="images/photo.jpg" %}
 
 {% endcapture %}
