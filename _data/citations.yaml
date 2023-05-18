@@ -164,6 +164,69 @@
   orcid: 0000-0002-4162-3269
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1098/rsta.2022.0056
+  title: Southern ocean carbon and heat impact on climate
+  authors:
+  - "J. B. Sall\xE9e"
+  - E. P. Abrahamsen
+  - C. Allaigre
+  - M. Auger
+  - H. Ayres
+  - R. Badhe
+  - J. Boutin
+  - J. A. Brearley
+  - C. de Lavergne
+  - A. M. M. ten Doeschate
+  - E. S. Droste
+  - M. D. du Plessis
+  - D. Ferreira
+  - I. S. Giddy
+  - "B. G\xFClk"
+  - N. Gruber
+  - M. Hague
+  - M. Hoppema
+  - S. A. Josey
+  - T. Kanzow
+  - M. Kimmritz
+  - M. R. Lindeman
+  - P. J. Llanillo
+  - N. S. Lucas
+  - G. Madec
+  - D. P. Marshall
+  - A. J. S. Meijers
+  - M. P. Meredith
+  - M. Mohrmann
+  - P. M. S. Monteiro
+  - C. Mosneron Dupin
+  - K. Naeck
+  - A. Narayanan
+  - A. C. Naveira Garabato
+  - S-A. Nicholson
+  - A. Novellino
+  - "M. \xD6dalen"
+  - "S. \xD8sterhus"
+  - W. Park
+  - R. D. Patmore
+  - E. Piedagnel
+  - F. Roquet
+  - H. S. Rosenthal
+  - T. Roy
+  - R. Saurabh
+  - Y. Silvy
+  - T. Spira
+  - N. Steiger
+  - A. F. Styles
+  - S. Swart
+  - L. Vogt
+  - B. Ward
+  - S. Zhou
+  publisher: 'Philosophical Transactions of the Royal Society A: Mathematical, Physical
+    and Engineering Sciences'
+  date: '2023-05-08'
+  link: https://doi.org/gr8cph
+  orcid: 0000-0001-6677-6838
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.21203/rs.3.rs-1929237/v1
   title: On Asymmetric Internal Hemispheric Variability in the Ocean in 2005-2015
   authors:
