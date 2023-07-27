@@ -25,7 +25,7 @@ We work within the school of mathematics and statistcis at UNSW but are also lin
 {% include figure.html image="images/unsw_logo.png" link="https://www.unsw.edu.au/science/our-schools/maths"%}
 {% include figure.html image="images/ACEAS_logo.png" link="https://antarctic.org.au/" %}
 {% include figure.html image="images/udash.jpg" link="https://www.unsw.edu.au/research/udash" %}
-{% include figure.html image="images/udash.jpg" link="https://www.unsw.edu.au/research/udash" %}
+{% include figure.html image="images/Udash-logo-revised-04-2.png" link="https://www.unsw.edu.au/research/udash" %}
 
 {% endcapture %}
 
