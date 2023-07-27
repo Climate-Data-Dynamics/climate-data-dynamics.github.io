@@ -52,6 +52,7 @@ We carry out fundamental research into the role of the ocean and water in the ch
   image="images/CCSM4_TS_preind.jpg"
   link="research"
   title="Our Research"
+  flip=true 
   text=text
 %}
 
@@ -75,7 +76,6 @@ We are involved in a range of national and international projects and are always
   image="images/ACEAS_logo.png"
   link="projects"
   title="Our Projects"
-  flip=true
   style="bare"
   text=text
 %}
