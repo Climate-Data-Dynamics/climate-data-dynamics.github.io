@@ -21,7 +21,7 @@
 - title: UNICORNS
   subtitle: Understanding Interdecadal Changes in the Ocean Carbon Sink
   group: currentgrants
-  image: images/image.jpg
+  image: images/unicorn.jpeg
   link: http://gotw.nerc.ac.uk/list_full.asp?pcode=NE%2FW001543%2F1&cookieConsent=A
   description: The oceans have absorbed more than a quarter of the carbon dioxide (CO2) that humans release to the atmosphere, a process that substantially slows the pace of climate change. However, this ocean "sink" for CO2 is not constant - observational estimates based on surface ocean measurements suggest it changed little through the 1990s, but after 2000 it began to increase rapidly. The reasons for this variability are not understood. Earth system models for the climate and carbon cycle do not capture the variation, indicating fundamental deficiencies in the models. This is a major problem because the models are our tools to project how the climate will change in the future.
   repo: greenelab/lab-website-template
@@ -30,7 +30,7 @@
 
 - title: CLAW
   subtitle: Climate-scale analysis of changing air and water masses
-  image: images/347_540_f1.jpg
+  image: images/347_540_f1.jpeg
   link: https://app.dimensions.ai/details/grant/grant.2752839
   description: This project is concerned with measuring changes in global rainfall and ensuring that computer models of the climate can predict how rainfall will change in the future. As carbon dioxide and other greenhouse gases are continually added to the atmosphere, it is understood that the temperature of the surface of the earth will rise. Warmer air can hold more moisture, so as the Earth warms the rate at which the atmosphere extracts water from the surface of the earth and dumps it back as rain will also increase. Knowing precisely how much global rates of rainfall will change into the future is important to many people including farmers wanting to know which crops to plant and nations wanting to build domestic water and hydroelectric infrastructure. 
   repo: greenelab/lab-website-template
