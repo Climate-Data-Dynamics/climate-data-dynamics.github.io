@@ -11,7 +11,7 @@ We use data and dynamics to understand the ocean and climate.
 
 {% capture text %}
 
-We carry out fundamental research into the role of the ocean and water in the changing climate using cutting edge data science methods combined with physically based theory and numerical modelling.
+We carry out fundamental research into the role of the ocean and water in the changing climate using cutting edge data science methods combined with process based theory and numerical modelling.
 
 {%
   include button.html
@@ -26,7 +26,7 @@ We carry out fundamental research into the role of the ocean and water in the ch
 
 {%
   include feature.html
-  image="https://agupubs.onlinelibrary.wiley.com/cms/asset/30fa5966-2efa-42f5-aea6-03ffea7e6842/grl62254-fig-0004-m.jpg"
+  image="images/CCSM4_TS_preind.pdf"
   link="research"
   title="Our Research"
   text=text
@@ -49,7 +49,7 @@ We are involved in a range of national and international projects and are always
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/CCSM4_TS_preind.pdf"
   link="projects"
   title="Our Projects"
   flip=true
@@ -74,7 +74,7 @@ Our team is based in the School of Mathematics and Statistics and the Climate Ch
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/IMG_0027.jpg"
   link="team"
   title="Our Team"
   text=text
