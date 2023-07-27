@@ -11,6 +11,29 @@ We use cutting edge data science and process driven dynamical theory and models 
 
 {% capture text %}
 
+Our team is based in the School of Mathematics and Statistics and the Climate Change Research Centre at the University of New South Wales.
+
+{%
+  include button.html
+  link="team"
+  text="Meet our team"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/IMG_0027.jpg"
+  link="team"
+  title="Our Team"
+  text=text
+%}
+
+{% capture text %}
+
 We carry out fundamental research into the role of the ocean and water in the changing climate using cutting edge data science methods combined with process based theory and numerical modelling.
 
 {%
@@ -54,28 +77,5 @@ We are involved in a range of national and international projects and are always
   title="Our Projects"
   flip=true
   style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-Our team is based in the School of Mathematics and Statistics and the Climate Change Research Centre at the University of New South Wales.
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/IMG_0027.jpg"
-  link="team"
-  title="Our Team"
   text=text
 %}
