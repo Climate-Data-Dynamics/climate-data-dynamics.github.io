@@ -3,8 +3,7 @@ name: Jan Zika
 image: images/Jan_Zika_Profile_Pic_2019zoomin.jpeg
 role: pi
 aliases:
-  - J.D. Zika
-  - J Zika
+  - Zika
 links:
   home-page: https://sites.google.com/view/janzika/home
   orcid: 0003-3462-3559
