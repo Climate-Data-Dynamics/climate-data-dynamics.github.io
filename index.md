@@ -11,7 +11,7 @@ We use data and dynamics to understand the ocean and climate.
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We carry out fundamental research into the role of the ocean and water in the changing climate using cutting edge data science methods combined with physically based theory and numerical modelling.
 
 {%
   include button.html
@@ -34,7 +34,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We are involved in a range of national and international projects and are always keen to hear from numerate graduates interested in working with us and helping grow the strength and diversity of our team.
 
 {%
   include button.html
