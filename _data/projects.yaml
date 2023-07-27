@@ -4,7 +4,7 @@
   image: images/ACEAS_logo.png
   link: https://antarctic.org.au
   description: The Centre will revolutionise predictions of the future of East Antarctica and the Southern Ocean. Changes in the Antarctic will be profoundly costly to Australia, including sea-level and fisheries impacts; but the speed and scale of future change remains poorly understood. A new national-scale and interdisciplinary Centre is required to understand the complex interactions of the ocean, ice sheets, atmosphere and ecosystems that will govern Antarctica’s future. The Centre will combine new field data with innovative models to address Australia’s Antarctic science priorities, train graduate students, develop leaders, engage the public, and enable major economic benefit as Australia adapts to climate change in the coming years and beyond.
-  repo: greenelab/lab-website-template
+  #repo: greenelab/lab-website-template
   tags:
     - grant
 
@@ -14,7 +14,7 @@
   image: images/image.png
   link: https://app.dimensions.ai/details/grant/grant.7849108
   description: This project aims to improve projections of possible sea level changes. Sea level rise is among the most significant potential impacts of transient climate change around the world. Poor understanding of the way in which heat is absorbed at the sea surface and distributed by ocean circulation is a leading source of uncertainty in projections of global surface temperature and regional sea level rise by the end of this century. This project aims to apply novel observational methods, complimented by numerical modelling, to quantify the drivers of recent change. This project expects to transform our ability to predict how ocean temperature and sea level will change in the future.
-  repo: greenelab/lab-website-template
+  #repo: greenelab/lab-website-template
   tags:
     - grant
 
@@ -24,7 +24,7 @@
   image: images/unicorn.jpeg
   link: http://gotw.nerc.ac.uk/list_full.asp?pcode=NE%2FW001543%2F1&cookieConsent=A
   description: The oceans have absorbed more than a quarter of the carbon dioxide (CO2) that humans release to the atmosphere, a process that substantially slows the pace of climate change. However, this ocean "sink" for CO2 is not constant - observational estimates based on surface ocean measurements suggest it changed little through the 1990s, but after 2000 it began to increase rapidly. The reasons for this variability are not understood. Earth system models for the climate and carbon cycle do not capture the variation, indicating fundamental deficiencies in the models. This is a major problem because the models are our tools to project how the climate will change in the future.
-  repo: greenelab/lab-website-template
+  #repo: greenelab/lab-website-template
   tags:
     - grant
 
@@ -33,6 +33,6 @@
   image: images/347_540_f1.jpeg
   link: https://app.dimensions.ai/details/grant/grant.2752839
   description: This project is concerned with measuring changes in global rainfall and ensuring that computer models of the climate can predict how rainfall will change in the future. As carbon dioxide and other greenhouse gases are continually added to the atmosphere, it is understood that the temperature of the surface of the earth will rise. Warmer air can hold more moisture, so as the Earth warms the rate at which the atmosphere extracts water from the surface of the earth and dumps it back as rain will also increase. Knowing precisely how much global rates of rainfall will change into the future is important to many people including farmers wanting to know which crops to plant and nations wanting to build domestic water and hydroelectric infrastructure. 
-  repo: greenelab/lab-website-template
+  #repo: greenelab/lab-website-template
   tags:
     - grant
