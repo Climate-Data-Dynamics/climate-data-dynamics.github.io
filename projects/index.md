@@ -7,9 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-As a group, we are involved in a range of projects involving data science, climate theory and numerical modelling of the earth system.
-
-Below are some ongoing and proposed projects. If you are a student at Honours, Masters or PhD level and are keen to discuss a possible project then please get in touch.
+We are involved in a range of projects involving data science, climate theory and numerical modelling of the earth system. Below are some ongoing and proposed projects. If you are a student at Honours, Masters or PhD level and are keen to discuss a possible project then please get in touch.
 
 {% include tags.html tags="publication, resource, website" %}
 
