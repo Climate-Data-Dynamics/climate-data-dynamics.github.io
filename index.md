@@ -1,9 +1,9 @@
 ---
 ---
 
-# Climate Data and Dynamics Lab Website
+# Climate Data and Dynamics Lab
 
-We use data and dynamics to understand the ocean and climate.
+We use cutting edge data science and process driven dynamical theory and models to understand the ocean and climate. 
 
 {% include section.html %}
 
