@@ -49,7 +49,7 @@ We are involved in a range of national and international projects and are always
 
 {%
   include feature.html
-  image="images/ACEAS_logo.jpg"
+  image="images/ACEAS_logo.png"
   link="projects"
   title="Our Projects"
   flip=true
