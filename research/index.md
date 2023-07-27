@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-We carry out fundamental research into the role of the ocean and water in the changing climate. We use cutting edge data science methods combined with physically based theory and numerical modelling to solve key challenges in this area.
+We carry out fundamental research into the role of the ocean and water in the changing climate using cutting edge data science methods combined with physically based theory and numerical modelling.
 
 {% include section.html %}
 
