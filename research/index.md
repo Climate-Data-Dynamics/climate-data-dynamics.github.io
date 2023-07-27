@@ -7,8 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We carry out fundamental research into the role of the ocean and water in the changing climate. We use cutting edge data science methods combined with physically based theory and numerical modelling to solve key challenges in this area.
 
 {% include section.html %}
 
