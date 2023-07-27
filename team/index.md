@@ -7,9 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our team ranges from undergraduate and higher degree research students to postdoctoral and senior researchers. We have a range of student projects in the pipeline for numerate graduates. If you are interested in colaborating or joining our team, please get in contact. 
 
 {% include section.html %}
 
@@ -18,9 +16,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We work within the school of mathematics and statistcis at UNSW but are also linked to a range of national projects. See the links below.
 
 {% include section.html %}
 
@@ -28,7 +24,8 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include figure.html image="images/unsw_logo.png" link="https://www.unsw.edu.au/science/our-schools/maths"%}
 {% include figure.html image="images/ACEAS_logo.png" link="https://antarctic.org.au/" %}
-{% include figure.html image="images/photo.jpg" %}
+{% include figure.html image="images/udash.jpg" link="https://www.unsw.edu.au/research/udash" %}
+{% include figure.html image="images/udash.jpg" link="https://www.unsw.edu.au/research/udash" %}
 
 {% endcapture %}
 
