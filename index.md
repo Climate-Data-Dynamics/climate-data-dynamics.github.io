@@ -49,9 +49,7 @@ We carry out fundamental research into the role of the ocean and water in the ch
 
 {%
   include feature.html
-  image="images/CCSM4_TS_preind.jpg"
-  width="703"
-  height="578"
+  image="images/CCSM4_TS_preind.png"
   link="research"
   title="Our Research"
   flip=true
