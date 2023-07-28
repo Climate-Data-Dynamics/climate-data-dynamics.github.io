@@ -27,7 +27,7 @@ Our team is based in the School of Mathematics and Statistics and the Climate Ch
 {%
   include feature.html
   image="images/IMG_0027.jpg"
-  style="width: 300px; height: 337px; object-fit: cover;"
+  style="object-fit: cover"
   link="team"
   title="Our Team"
   text=text
