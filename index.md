@@ -27,6 +27,7 @@ Our team is based in the School of Mathematics and Statistics and the Climate Ch
 {%
   include feature.html
   image="images/IMG_0027.jpg"
+  style="width: 300px; height: 337px; object-fit: cover;"
   link="team"
   title="Our Team"
   text=text
@@ -52,7 +53,7 @@ We carry out fundamental research into the role of the ocean and water in the ch
   image="images/CCSM4_TS_preind.jpg"
   link="research"
   title="Our Research"
-  flip=true 
+  flip=true
   text=text
 %}
 
