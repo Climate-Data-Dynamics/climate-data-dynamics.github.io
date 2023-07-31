@@ -160,6 +160,7 @@ for citation in citations:
         # remove the citation
         print("removing")
         citations.remove(citation)
+print(citations)
 
 log()
 
