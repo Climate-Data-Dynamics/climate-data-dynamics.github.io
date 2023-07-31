@@ -154,12 +154,12 @@ journals = ["Journal of Physical Oceanography", "Journal of Climate"]
 
 log("Removing citations that are not from journal publications")
 
-for idx, citation in enumerate(citations):
+for citation in citations:
     print(citation["publisher"])
     if citation["publisher"] not in journals:
         # remove the citation
         print("removing")
-        citations.pop(idx)
+        citations.remove(citation)
 
 log()
 
