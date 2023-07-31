@@ -107,7 +107,14 @@ log()
 log("Generating citations")
 
 # List of Journals to include as publishers on the website
-journals = ["Journal of Physical Oceanography", "Journal of Climate"]
+journals = ["Journal of Physical Oceanography", "Journal of Climate", "Nature", 
+            "Geophysical Research Letters", "Journal of Geophysical Research: Oceans",
+            "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",
+            "Frontiers in Climate", "Nature Communications", "Nature Reviews Earth &amp; Environment",
+            "Ocean Mixing", "Climate Dynamics", "Ocean Science", "Annual Review of Marine Science",
+            "Journal of Atmospheric and Oceanic Technology", "Environmental Research Letters",
+            "Ocean Modelling", "Bulletin of the American Meteorological Society", "Scientific Reports",
+            "Science", "Journal of the Atmospheric Sciences", ]
 # list of new citations
 citations = []
 
@@ -152,19 +159,6 @@ for index, source in enumerate(sources):
             citations.append(citation)
 
 print(citations)
-# List of Journals to include as publishers on the website
-# journals = ["Journal of Physical Oceanography", "Journal of Climate"]
-
-# log("Removing citations that are not from journal publications")
-# remove_idx = []
-# for idx, citation in enumerate(citations):
-#     print(citation["publisher"])
-#     if citation["publisher"] not in journals:
-#         # remove the citation
-#         print("removing")
-#         citations.remove(citation)
-
-# print(citations)
 
 log()
 
