@@ -152,7 +152,7 @@ for index, source in enumerate(sources):
 # List of Journals to include as publishers on the website
 journals = ["Journal of Physical Oceanography", "Journal of Climate"]
 for idx, citation in enumerate(citations):
-    if citations["publisher"] not in journals:
+    if citation["publisher"] not in journals:
         # remove the citation
         citations.remove(idx)
 
