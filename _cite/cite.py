@@ -158,6 +158,7 @@ for idx, citation in enumerate(citations):
     print(citation["publisher"])
     if citation["publisher"] not in journals:
         # remove the citation
+        print("removing")
         citations.pop(idx)
 
 log()
