@@ -153,15 +153,18 @@ for index, source in enumerate(sources):
 journals = ["Journal of Physical Oceanography", "Journal of Climate"]
 
 log("Removing citations that are not from journal publications")
-
-for citation in citations:
+remove_idx = []
+for idx, citation in enumerate(citations):
     print(citation["publisher"])
     if citation["publisher"] not in journals:
         # remove the citation
-        print("removing")
-        citations.remove(citation)
-print(citations)
+        #print("removing")
+        #citations.remove(citation)
+        remove_idx.append(idx)
 
+print(citations)
+del citations[remove_idx]
+print(citations)
 log()
 
 log("Saving updated citations")
