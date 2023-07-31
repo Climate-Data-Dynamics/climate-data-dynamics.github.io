@@ -3,7 +3,7 @@
 
 # Climate Data and Dynamics Lab
 
-We use cutting edge data science and process driven dynamical theory and models to understand the ocean and climate. 
+Welcome to the Climate Data and Dynamics Lab! We are a team of data scientists and physicists using a range of tools from cutting edge statistics to process driven dynamical models to understand the ocean and climate. 
 
 {% include section.html %}
 
@@ -11,7 +11,7 @@ We use cutting edge data science and process driven dynamical theory and models 
 
 {% capture text %}
 
-Our team is based in the School of Mathematics and Statistics and the Climate Change Research Centre at the University of New South Wales.
+Our team is based in the School of Mathematics and Statistics at the University of New South Wales.
 
 {%
   include button.html
