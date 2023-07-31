@@ -149,14 +149,16 @@ for index, source in enumerate(sources):
     # add new citation to list
     citations.append(citation)
 
-log("Removing citations that are not from journal publications")
 # List of Journals to include as publishers on the website
 journals = ["Journal of Physical Oceanography", "Journal of Climate"]
+
+log("Removing citations that are not from journal publications")
+
 for idx, citation in enumerate(citations):
     print(citation["publisher"])
     if citation["publisher"] not in journals:
         # remove the citation
-        citations.remove(citation)
+        citations.pop(idx)
 
 log()
 
