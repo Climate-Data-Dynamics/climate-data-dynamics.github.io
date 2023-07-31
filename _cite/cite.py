@@ -106,6 +106,8 @@ log()
 
 log("Generating citations")
 
+# List of Journals to include as publishers on the website
+journals = ["Journal of Physical Oceanography", "Journal of Climate"]
 # list of new citations
 citations = []
 
@@ -145,26 +147,25 @@ for index, source in enumerate(sources):
     # ensure date in proper format for correct date sorting
     if citation.get("date", ""):
         citation["date"] = format_date(citation.get("date", ""))
+        if citation["publisher"] in journals:
+            # add new citation to list
+            citations.append(citation)
 
-    # add new citation to list
-    citations.append(citation)
-
+print(citations)
 # List of Journals to include as publishers on the website
-journals = ["Journal of Physical Oceanography", "Journal of Climate"]
+# journals = ["Journal of Physical Oceanography", "Journal of Climate"]
 
-log("Removing citations that are not from journal publications")
-remove_idx = []
-for idx, citation in enumerate(citations):
-    print(citation["publisher"])
-    if citation["publisher"] not in journals:
-        # remove the citation
-        #print("removing")
-        #citations.remove(citation)
-        remove_idx.append(idx)
+# log("Removing citations that are not from journal publications")
+# remove_idx = []
+# for idx, citation in enumerate(citations):
+#     print(citation["publisher"])
+#     if citation["publisher"] not in journals:
+#         # remove the citation
+#         print("removing")
+#         citations.remove(citation)
 
-print(citations)
-del citations[remove_idx]
-print(citations)
+# print(citations)
+
 log()
 
 log("Saving updated citations")
