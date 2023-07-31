@@ -300,6 +300,21 @@
   orcid: 0000-0003-3462-3559
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1029/2020ms002333
+  title: The Geography of Numerical Mixing in a Suite of Global Ocean Models
+  authors:
+  - R. M. Holmes
+  - J. D. Zika
+  - S. M. Griffies
+  - A. McC. Hogg
+  - A. E. Kiss
+  - M. H. England
+  publisher: Journal of Advances in Modeling Earth Systems
+  date: '2021-07-01'
+  link: https://doi.org/gr6zsv
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1175/jpo-d-21-0008.1
   title: 'Super Residual Circulation: a new perspective on ocean vertical heat transport'
   authors:
