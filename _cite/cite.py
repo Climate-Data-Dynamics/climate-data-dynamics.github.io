@@ -114,7 +114,9 @@ journals = ["Journal of Physical Oceanography", "Journal of Climate", "Nature",
             "Ocean Mixing", "Climate Dynamics", "Ocean Science", "Annual Review of Marine Science",
             "Journal of Atmospheric and Oceanic Technology", "Environmental Research Letters",
             "Ocean Modelling", "Bulletin of the American Meteorological Society", "Scientific Reports",
-            "Science", "Journal of the Atmospheric Sciences", ]
+            "Science", "Journal of the Atmospheric Sciences", "Nature Climate Change",
+            "Journal of Advances in Modeling Earth Systems"]
+
 # list of new citations
 citations = []
 
@@ -154,11 +156,10 @@ for index, source in enumerate(sources):
     # ensure date in proper format for correct date sorting
     if citation.get("date", ""):
         citation["date"] = format_date(citation.get("date", ""))
+        # remove entries that are not from journal publications
         if citation["publisher"] in journals:
             # add new citation to list
             citations.append(citation)
-
-print(citations)
 
 log()
 
