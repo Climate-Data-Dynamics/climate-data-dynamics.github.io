@@ -16,3 +16,35 @@
   image: https://agupubs.onlinelibrary.wiley.com/cms/asset/8e6aeeeb-6fed-49fe-8c8a-6cc1caf0a86c/jgrc23463-fig-0001-m.jpg
 - id: doi:10.1029/2018GL077711
   image: https://agupubs.onlinelibrary.wiley.com/cms/asset/bcdbbe4d-96ae-46f5-a0f0-def70c529fb0/grl57301-fig-0001-m.jpg
+- id: doi:10.1175/jcli-d-21-0793.1
+  image: https://journals.ametsoc.org/view/journals/clim/35/15/full-JCLI-D-21-0793.1-fA1.jpg
+- id: doi:10.3389/fclim.2022.861477
+  image: https://www.frontiersin.org/files/Articles/861477/fclim-04-861477-HTML-r3/image_m/fclim-04-861477-g002.jpg
+- id: doi:10.1029/2020ms002333
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/5aed27fb-ca2c-4aaa-a34d-9aa706d14dcc/jame21392-fig-0001-m.jpg
+- id: doi:10.1175/jpo-d-21-0008.1
+  image: https://journals.ametsoc.org/view/journals/phoc/51/8/full-JPO-D-21-0008.1-f1.jpg
+- id: doi:10.1175/jcli-d-20-0355.1
+  image: https://journals.ametsoc.org/view/journals/clim/34/9/full-JCLI-D-20-0355.1-f1.jpg
+- id: doi:10.1029/2020gl091439
+  source: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020GL091439
+- id: doi:10.1175/jpo-d-20-0212.1
+  source: https://journals.ametsoc.org/view/journals/phoc/51/7/full-JPO-D-20-0212.1-f7.jpg
+- id: doi:10.1175/jcli-d-20-0625.1
+  source: https://journals.ametsoc.org/view/journals/clim/34/7/full-JCLI-D-20-0625.1-f9.jpg
+- id: doi:10.1029/2020GL089455
+  source: https://agupubs.onlinelibrary.wiley.com/cms/asset/0c55a4b0-b3de-40e9-92a4-8d1b53ccadcb/grl61613-fig-0001-m.jpg
+- id: doi:10.1175/jcli-d-20-0281.1
+  source: https://journals.ametsoc.org/view/journals/clim/34/8/full-JCLI-D-20-0281.1-f1.jpg
+- id: doi:10.1175/jcli-d-19-0579.1
+  source: https://journals.ametsoc.org/view/journals/clim/33/15/full-jcliD190579-f8.jpg
+- id: doi:10.1175/jpo-d-19-0188.1
+  source: https://journals.ametsoc.org/view/journals/phoc/50/6/full-JPO-D-19-0188.1-f2.jpg
+- id: doi:10.1007/s00382-020-05261-y
+  source: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00382-020-05261-y/MediaObjects/382_2020_5261_Fig3_HTML.png?as=webp
+- id: doi:10.1038/s41467-020-15754-3
+  source: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-020-15754-3/MediaObjects/41467_2020_15754_Fig1_HTML.png?as=webp
+- id: doi:10.5194/os-16-323-2020
+  source: https://os.copernicus.org/articles/16/323/2020/os-16-323-2020-avatar-web.png
+- id: doi:10.1098/rsta.2022.0056
+  source: https://royalsocietypublishing.org/cms/asset/bb8669e8-9246-4a7b-be9a-734329364da3/rsta20220056f02.gif
