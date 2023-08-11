@@ -68,8 +68,7 @@
   orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
-  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/30fa5966-2efa-42f5-aea6-03ffea7e6842/grl62254-fig-0004-m.jpg
-  source: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020GL091439
+  image: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020GL091439
 - id: doi:10.1029/2020GL089455
   title: Roles of Shear and Convection in Driving Mixing in the Ocean
   authors:
@@ -84,8 +83,7 @@
   orcid: 0000-0002-4162-3269
   plugin: sources.py
   file: sources.yaml
-  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/8e000b8a-f1d7-4784-9462-05736b339a09/grl61613-fig-0001-m.jpg
-  source: https://agupubs.onlinelibrary.wiley.com/cms/asset/0c55a4b0-b3de-40e9-92a4-8d1b53ccadcb/grl61613-fig-0001-m.jpg
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/0c55a4b0-b3de-40e9-92a4-8d1b53ccadcb/grl61613-fig-0001-m.jpg
 - id: doi:10.1175/jpo-d-19-0264.1
   title: The Dynamics of Mixed Layer Deepening during Open-Ocean Convection
   authors:
@@ -189,7 +187,7 @@
   orcid: 0000-0001-6677-6838
   plugin: sources.py
   file: sources.yaml
-  source: https://royalsocietypublishing.org/cms/asset/bb8669e8-9246-4a7b-be9a-734329364da3/rsta20220056f02.gif
+  image: https://royalsocietypublishing.org/cms/asset/bb8669e8-9246-4a7b-be9a-734329364da3/rsta20220056f02.gif
 - id: doi:10.3389/fclim.2022.861477
   title: Interactions Between a Marine Heatwave and Tropical Cyclone Amphan in the
     Bay of Bengal in 2020
@@ -222,7 +220,7 @@
   orcid: 0000-0001-6677-6838
   plugin: sources.py
   file: sources.yaml
-  source: https://journals.ametsoc.org/view/journals/clim/34/7/full-JCLI-D-20-0625.1-f9.jpg
+  image: https://journals.ametsoc.org/view/journals/clim/34/7/full-JCLI-D-20-0625.1-f9.jpg
 - id: doi:10.1175/jcli-d-19-0579.1
   title: Near-Surface Salinity Reveals the Oceanic Sources of Moisture for Australian
     Precipitation through Atmospheric Moisture Transport
@@ -238,7 +236,7 @@
   orcid: 0000-0001-6677-6838
   plugin: sources.py
   file: sources.yaml
-  source: https://journals.ametsoc.org/view/journals/clim/33/15/full-jcliD190579-f8.jpg
+  image: https://journals.ametsoc.org/view/journals/clim/33/15/full-jcliD190579-f8.jpg
 - id: doi:10.1038/s41467-020-15754-3
   title: Recent hemispheric asymmetry in global ocean warming induced by climate change
     and internal variability
@@ -253,7 +251,7 @@
   orcid: 0000-0001-6677-6838
   plugin: sources.py
   file: sources.yaml
-  source: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-020-15754-3/MediaObjects/41467_2020_15754_Fig1_HTML.png?as=webp
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-020-15754-3/MediaObjects/41467_2020_15754_Fig1_HTML.png?as=webp
 - id: doi:10.1175/jcli-d-22-0267.1
   title: Rectified Ocean Heat Uptake from Oscillatory Surface Forcing
   authors:
@@ -370,7 +368,7 @@
   orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
-  source: https://journals.ametsoc.org/view/journals/phoc/51/7/full-JPO-D-20-0212.1-f7.jpg
+  image: https://journals.ametsoc.org/view/journals/phoc/51/7/full-JPO-D-20-0212.1-f7.jpg
 - id: doi:10.1016/B978-0-12-821512-8.00010-4
   title: The role of mixing in the large-scale ocean circulation
   authors:
@@ -397,7 +395,7 @@
   orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
-  source: https://journals.ametsoc.org/view/journals/clim/34/8/full-JCLI-D-20-0281.1-f1.jpg
+  image: https://journals.ametsoc.org/view/journals/clim/34/8/full-JCLI-D-20-0281.1-f1.jpg
 - id: doi:10.1007/s00382-020-05261-y
   title: Changing water cycle and freshwater transports in the Atlantic Ocean in observations
     and CMIP5 models
@@ -412,7 +410,7 @@
   orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
-  source: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00382-020-05261-y/MediaObjects/382_2020_5261_Fig3_HTML.png?as=webp
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00382-020-05261-y/MediaObjects/382_2020_5261_Fig3_HTML.png?as=webp
 - id: doi:10.5194/os-16-323-2020
   title: Tracking the spread of a passive tracer through Southern Ocean water masses
   authors:
@@ -429,7 +427,7 @@
   orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
-  source: https://os.copernicus.org/articles/16/323/2020/os-16-323-2020-avatar-web.png
+  image: https://os.copernicus.org/articles/16/323/2020/os-16-323-2020-avatar-web.png
 - id: doi:10.1175/jpo-d-19-0188.1
   title: The Observation-Based Application of a Regional Thermohaline Inverse Method
     to Diagnose the Formation and Transformation of Water Masses North of the OSNAP
@@ -445,7 +443,7 @@
   orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
-  source: https://journals.ametsoc.org/view/journals/phoc/50/6/full-JPO-D-19-0188.1-f2.jpg
+  image: https://journals.ametsoc.org/view/journals/phoc/50/6/full-JPO-D-19-0188.1-f2.jpg
 - id: doi:10.1029/2019gl085160
   title: "Atlantic Ocean Heat Transport Enabled by Indo\u2010Pacific Heat Uptake and\
     \ Mixing"
