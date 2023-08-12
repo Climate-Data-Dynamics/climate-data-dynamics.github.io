@@ -71,7 +71,7 @@
 - id: doi:10.1175/jpo-d-16-0089.1
   image: https://journals.ametsoc.org/view/journals/phoc/47/3/inline-jpo-d-16-0089.1-f3.jpg
 - id: doi:10.1175/jpo-d-16-0125.1
-  iamge: https://journals.ametsoc.org/view/journals/phoc/47/3/inline-jpo-d-16-0125.1-f4.jpg
+  image: https://journals.ametsoc.org/view/journals/phoc/47/3/inline-jpo-d-16-0125.1-f4.jpg
 - id: doi:10.1175/JCLI-D-15-0759.1
   image: https://journals.ametsoc.org/view/journals/clim/30/2/inline-jcli-d-15-0759.1-f8.jpg
 - id: doi:10.1038/srep38752
@@ -98,3 +98,27 @@
   image: https://journals.ametsoc.org/view/journals/atsc/71/3/inline-jas-d-13-0173.1-f1.jpg
 - id: doi:10.1016/j.ocemod.2017.11.008
   image: https://ars.els-cdn.com/content/image/1-s2.0-S1463500317301853-gr4.jpg
+- id: doi:10.1175/JPO-D-13-091.1
+  image: https://journals.ametsoc.org/view/journals/phoc/43/12/full-jpo-d-13-091.1-f5.jpg
+- id: doi:10.1007/s00382-013-1992-5
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00382-013-1992-5/MediaObjects/382_2013_1992_Fig1_HTML.gif?as=webp
+- id: doi:10.1175/JPO-D-12-0179.1
+  image: https://journals.ametsoc.org/view/journals/phoc/43/10/inline-jpo-d-12-0179.1-f3.jpg
+- id: doi:10.1175/JPO-D-12-0178.1
+  image: https://journals.ametsoc.org/view/journals/phoc/43/5/inline-jpo-d-12-0178.1-f2.jpg
+- id: doi:10.1175/JCLI-D-11-00309.1
+  image: https://journals.ametsoc.org/view/journals/clim/25/20/inline-jcli-d-11-00309.1-f1.jpg
+- id: doi:10.1175/JPO-D-11-0139.1
+  image: https://journals.ametsoc.org/view/journals/phoc/42/5/inline-jpo-d-11-0139.1-f8.jpg
+- id: doi:10.1029/2012GL051004
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/3763f7a6-ce23-471b-ac6e-a69577cd2bd9/grl29008-fig-0002.png
+- id: doi:10.1175/JCLI-D-11-00077.1
+  image: https://journals.ametsoc.org/view/journals/clim/24/21/inline-jcli-d-11-00077.1-f9.jpg
+- id: doi:10.1175/2010JPO4360.1
+  image: https://journals.ametsoc.org/view/journals/phoc/40/8/inline-i1520-0485-40-8-1881-f02.jpg
+- id: doi:10.1175/2009JPO4208.1
+  image: https://journals.ametsoc.org/view/journals/phoc/40/1/inline-i1520-0485-40-1-26-f02.jpg
+- id: doi:10.1175/2009JPO4052.1
+  image: https://journals.ametsoc.org/view/journals/phoc/39/11/inline-i1520-0485-39-11-2926-f02.gif
+- id: doi:10.1175/2007JPO3507.1
+  image: https://journals.ametsoc.org/view/journals/phoc/38/1/inline-i1520-0485-38-1-164-f01.gif
