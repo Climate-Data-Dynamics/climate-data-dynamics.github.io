@@ -1,7 +1,9 @@
 - id: doi:10.1175/jpo-d-22-0145.1
   image: https://drive.google.com/uc?export=view&id=195oOwUL2F1v-qMn2hJj4_yBYGKF9u6nL
+- id: doi:10.1175/jcli-d-22-0267.1
+  image: https://drive.google.com/uc?export=view&id=1-2AbdqgUMxde0iqEOWxCqOHmZcMgm9vf
 - id: doi:10.1029/2020gl091439
-  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/30fa5966-2efa-42f5-aea6-03ffea7e6842/grl62254-fig-0004-m.jpg
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/3900130c-c675-4b88-93a6-d1f3cc097d1c/grl62254-fig-0004-m.jpg
 - id: doi:10.1038/s41586-021-04370-w
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-021-04370-w/MediaObjects/41586_2021_4370_Fig2_HTML.png?as=webp
 - id: doi:10.1175/jcli-d-21-0695.1
@@ -122,3 +124,5 @@
   image: https://journals.ametsoc.org/view/journals/phoc/39/11/inline-i1520-0485-39-11-2926-f02.gif
 - id: doi:10.1175/2007JPO3507.1
   image: https://journals.ametsoc.org/view/journals/phoc/38/1/inline-i1520-0485-38-1-164-f01.gif
+- id: doi:10.1038/s43017-022-00345-1
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs43017-022-00345-1/MediaObjects/43017_2022_345_Fig2_HTML.png?as=webp
