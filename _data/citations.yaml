@@ -68,7 +68,7 @@
   orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
-  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/30fa5966-2efa-42f5-aea6-03ffea7e6842/grl62254-fig-0004-m.jpg
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/3900130c-c675-4b88-93a6-d1f3cc097d1c/grl62254-fig-0004-m.jpg
 - id: doi:10.1029/2020GL089455
   title: Roles of Shear and Convection in Driving Mixing in the Ocean
   authors:
@@ -263,8 +263,9 @@
   date: '2023-04-15'
   link: https://doi.org/gr6zss
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://drive.google.com/uc?export=view&id=1-2AbdqgUMxde0iqEOWxCqOHmZcMgm9vf
 - id: doi:10.1175/jcli-d-21-0793.1
   title: Mechanisms of Ocean Heat Uptake along and across Isopycnals
   authors:
@@ -304,8 +305,9 @@
   date: '2022-10-18'
   link: https://doi.org/gq3b4v
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs43017-022-00345-1/MediaObjects/43017_2022_345_Fig2_HTML.png?as=webp
 - id: doi:10.1029/2020ms002333
   title: The Geography of Numerical Mixing in a Suite of Global Ocean Models
   authors:
