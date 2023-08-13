@@ -623,7 +623,7 @@
   orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
-  iamge: https://journals.ametsoc.org/view/journals/phoc/47/3/inline-jpo-d-16-0125.1-f4.jpg
+  image: https://journals.ametsoc.org/view/journals/phoc/47/3/inline-jpo-d-16-0125.1-f4.jpg
 - id: doi:10.1175/jpo-d-16-0089.1
   title: Recent Wind-Driven Variability in Atlantic Water Mass Distribution and Meridional
     Overturning Circulation
@@ -888,8 +888,9 @@
   date: '2013-11-19'
   link: https://doi.org/f6ghht
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00382-013-1992-5/MediaObjects/382_2013_1992_Fig1_HTML.gif?as=webp
 - id: doi:10.1175/JAS-D-13-0173.1
   title: The Atmospheric General Circulation in Thermodynamical Coordinates
   authors:
@@ -948,8 +949,9 @@
   date: '2013-12-01'
   link: https://doi.org/f5jjds
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/phoc/43/12/full-jpo-d-13-091.1-f5.jpg
 - id: doi:10.1175/JPO-D-12-0178.1
   title: Vertical Eddy Fluxes in the Southern Ocean
   authors:
@@ -972,8 +974,9 @@
   date: '2013-05-01'
   link: https://doi.org/f4zhn4
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/phoc/43/5/inline-jpo-d-12-0178.1-f2.jpg
 - id: doi:10.1175/JPO-D-12-0179.1
   title: Vertical Heat Transport by Ocean Circulation and the Role of Mechanical and
     Haline Forcing
@@ -985,8 +988,9 @@
   date: '2013-10-01'
   link: https://doi.org/gr6ztd
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/phoc/43/10/inline-jpo-d-12-0179.1-f3.jpg
 - id: doi:10.1175/JCLI-D-11-00309.1
   title: Standing and Transient Eddies in the Response of the Southern Ocean Meridional
     Overturning to the Southern Annular Mode
@@ -1002,8 +1006,9 @@
   date: '2012-05-11'
   link: https://doi.org/f4b9c2
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/clim/25/20/inline-jcli-d-11-00309.1-f1.jpg
 - id: doi:10.1029/2012GL051004
   title: Tasman leakage in a fine-resolution ocean model
   authors:
@@ -1015,8 +1020,9 @@
   date: '2012-03-24'
   link: https://doi.org/gr6ztf
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/3763f7a6-ce23-471b-ac6e-a69577cd2bd9/grl29008-fig-0002.png
 - id: doi:10.1175/JPO-D-11-0139.1
   title: The Ocean Circulation in Thermohaline Coordinates
   authors:
@@ -1027,8 +1033,9 @@
   date: '2012-05-01'
   link: https://doi.org/d2jwrk
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/phoc/42/5/inline-jpo-d-11-0139.1-f8.jpg
 - id: doi:10.1175/JCLI-D-11-00077.1
   title: Sea Level Expression of Intrinsic and Forced Ocean Variabilities at Interannual
     Time Scales
@@ -1045,8 +1052,9 @@
   date: '2011-11-01'
   link: https://doi.org/fd9dxf
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/clim/24/21/inline-jcli-d-11-00077.1-f9.jpg
 - id: doi:10.1175/2009JPO4208.1
   title: A Tracer-Contour Inverse Method for Estimating Ocean Circulation and Mixing
   authors:
@@ -1057,8 +1065,9 @@
   date: '2010-01-01'
   link: https://doi.org/d96kck
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/phoc/40/1/inline-i1520-0485-40-1-26-f02.jpg
 - id: doi:10.1175/2010JPO4360.1
   title: 'Weak Mixing in the Eastern North Atlantic: An Application of the Tracer-Contour
     Inverse Method'
@@ -1070,8 +1079,9 @@
   date: '2010-08-01'
   link: https://doi.org/cxgpfj
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/phoc/40/8/inline-i1520-0485-40-8-1881-f02.jpg
 - id: doi:10.1175/2009JPO4052.1
   title: Diagnosing the Southern Ocean Overturning from Tracer Fields
   authors:
@@ -1082,8 +1092,9 @@
   date: '2009-11-01'
   link: https://doi.org/dq34km
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/phoc/39/11/inline-i1520-0485-39-11-2926-f02.gif
 - id: doi:10.1175/2007JPO3507.1
   title: Vertical and Lateral Mixing Processes Deduced from the Mediterranean Water
     Signature in the North Atlantic
@@ -1094,5 +1105,6 @@
   date: '2008-01-01'
   link: https://doi.org/dq42gm
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/phoc/38/1/inline-i1520-0485-38-1-164-f01.gif
