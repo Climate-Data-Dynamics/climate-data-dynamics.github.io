@@ -829,8 +829,9 @@
   date: '2015-01-30'
   link: https://doi.org/f3nmfb
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://www.science.org/cms/10.1126/science.1257103/asset/89d84e1a-91d3-4c14-baff-7937af001b43/assets/graphic/347_540_f1.jpeg
 - id: doi:10.1175/JCLI-D-15-0273.1
   title: "Maintenance and Broadening of the Ocean\u2019s Salinity Distribution by\
     \ the Water Cycle"
