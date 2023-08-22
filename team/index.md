@@ -25,7 +25,7 @@ We work within the School of Mathematics and Statistcis and the Climate Change R
 {% include figure.html image="images/unsw_logo.png" link="https://www.unsw.edu.au/science/our-schools/maths"%}
 {% include figure.html image="images/ACEAS_logo.png" link="https://antarctic.org.au/" %}
 
-{% include figure.html image="images/Udash-logo-revised-04-2.png" link="https://www.unsw.edu.au/research/udash" %}
+{% include figure.html image="images/udash_logo.png" link="https://www.unsw.edu.au/research/udash" %}
 
 {% endcapture %}
 
