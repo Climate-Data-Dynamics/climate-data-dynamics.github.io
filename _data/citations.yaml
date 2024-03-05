@@ -13,6 +13,30 @@
   plugin: sources.py
   file: sources.yaml
   image: https://drive.google.com/uc?export=view&id=195oOwUL2F1v-qMn2hJj4_yBYGKF9u6nL
+- id: doi:10.1029/2023gl105374
+  title: Anthropogenic Aerosols Offsetting Ocean Warming Less Efficiently Since the
+    1980s
+  authors:
+  - Taimoor Sohail
+  - Damien B. Irving
+  - Jan D. Zika
+  - Jonathan M. Gregory
+  publisher: Geophysical Research Letters
+  date: '2023-12-02'
+  link: https://doi.org/gtkpwf
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41558-023-01817-y
+  title: Committed future ice-shelf melt
+  authors:
+  - Taimoor Sohail
+  publisher: Nature Climate Change
+  date: '2023-10-23'
+  link: https://doi.org/gtkpwg
+  orcid: 0000-0002-4162-3269
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1175/jcli-d-22-0363.1
   title: Water-Mass Coordinates Isolate the Historical Ocean Warming Signal
   authors:
@@ -22,7 +46,7 @@
   publisher: Journal of Climate
   date: '2023-05-01'
   link: https://doi.org/gr6zp6
-  orcid: 0000-0002-4162-3269
+  orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
   image: https://journals.ametsoc.org/view/journals/clim/36/9/full-JCLI-D-22-0363.1-f2.jpg
@@ -252,6 +276,19 @@
   plugin: sources.py
   file: sources.yaml
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-020-15754-3/MediaObjects/41467_2020_15754_Fig1_HTML.png?as=webp
+- id: doi:10.5194/os-20-123-2024
+  title: Water properties and bottom water patterns in hadal trench environments
+  authors:
+  - Jessica Kolbusz
+  - Jan Zika
+  - Charitha Pattiaratchi
+  - Alan Jamieson
+  publisher: Ocean Science
+  date: '2024-02-02'
+  link: https://doi.org/gtkpwm
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1175/jcli-d-22-0267.1
   title: Rectified Ocean Heat Uptake from Oscillatory Surface Forcing
   authors:
@@ -1014,7 +1051,7 @@
   file: sources.yaml
   image: https://journals.ametsoc.org/view/journals/clim/25/20/inline-jcli-d-11-00309.1-f1.jpg
 - id: doi:10.1029/2012GL051004
-  title: Tasman leakage in a fine-resolution ocean model
+  title: "Tasman leakage in a fine\u2010resolution ocean model"
   authors:
   - Erik van Sebille
   - Matthew H. England
