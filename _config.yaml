@@ -1,7 +1,7 @@
 # site properties and page defaults
 title: Climate Data and Dynamics Lab
-subtitle: based in Sydney, Australia.
-description: Welcome to the Climate Data and Dynamics Lab! We are a team of data scientists and physicists using a range of tools from cutting edge statistics to process driven dynamical models to understand the ocean and climate.
+subtitle: based in Sydney, Australia
+description: We are a team of data scientists and physicists using a range of tools from cutting edge statistics to process driven dynamical models to understand the ocean and climate
 header: images/NASA-Scientific-Visual-Studio-Ocean-Currents-Maps.png
 footer: images/NASA-Scientific-Visual-Studio-Ocean-Currents-Maps.png
 
