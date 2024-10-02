@@ -276,6 +276,21 @@
   plugin: sources.py
   file: sources.yaml
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-020-15754-3/MediaObjects/41467_2020_15754_Fig1_HTML.png?as=webp
+- id: doi:10.1029/2023jc020259
+  title: The Ocean's Meridional Oxygen Transport
+  authors:
+  - Esther Portela
+  - Nicolas Kolodziejczyk
+  - Thomas Gorgues
+  - Jan Zika
+  - Coralie Perruche
+  - Alexandre Mignot
+  publisher: 'Journal of Geophysical Research: Oceans'
+  date: '2024-03-01'
+  link: https://doi.org/g6mh78
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.5194/os-20-123-2024
   title: Water properties and bottom water patterns in hadal trench environments
   authors:
@@ -320,6 +335,31 @@
   plugin: sources.py
   file: sources.yaml
   image: https://journals.ametsoc.org/view/journals/clim/35/15/full-JCLI-D-21-0793.1-fA1.jpg
+- id: doi:10.1038/s43017-022-00345-1
+  title: Past and future ocean warming
+  authors:
+  - Lijing Cheng
+  - Karina von Schuckmann
+  - John P. Abraham
+  - Kevin E. Trenberth
+  - Michael E. Mann
+  - Laure Zanna
+  - Matthew H. England
+  - Jan D. Zika
+  - John T. Fasullo
+  - Yongqiang Yu
+  - Yuying Pan
+  - Jiang Zhu
+  - Emily R. Newsom
+  - Ben Bronselaer
+  - Xiaopei Lin
+  publisher: Nature Reviews Earth &amp; Environment
+  date: '2022-10-18'
+  link: https://doi.org/gq3b4v
+  orcid: 0000-0003-3462-3559
+  plugin: sources.py
+  file: sources.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs43017-022-00345-1/MediaObjects/43017_2022_345_Fig2_HTML.png?as=webp
 - id: doi:10.1029/2020ms002333
   title: The Geography of Numerical Mixing in a Suite of Global Ocean Models
   authors:
@@ -405,7 +445,7 @@
   - John Church
   - Jan Zika
   publisher: Journal of Climate
-  date: '2020-08-26'
+  date: '2021-04-01'
   link: https://doi.org/gr6zs2
   orcid: 0000-0003-3462-3559
   plugin: sources.py
@@ -742,7 +782,7 @@
   - Laurent Brodeau
   - Aitor Aldama Campino
   publisher: Journal of Climate
-  date: '2017-01-01'
+  date: '2017-01-15'
   link: https://doi.org/f9kp3z
   orcid: 0000-0003-3462-3559
   plugin: sources.py
