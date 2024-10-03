@@ -4,7 +4,7 @@ run-name: on schedule
 on:
   schedule:
     # weekly
-    - cron: "0 0 * * 1"
+    - cron: "0 0 * * *"
 
   # run if user manually requests it
   workflow_dispatch:
@@ -25,3 +25,8 @@ jobs:
     needs: update-citations
     if: needs.update-citations.outputs.changed == 'true'
     uses: ./.github/workflows/build-preview.yaml
+
+  build-site:
+    needs: update-citations
+    if: needs.update-citations.outputs.changed == 'true'
+    uses: ./.github/workflows/build-site.yaml
