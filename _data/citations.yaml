@@ -448,7 +448,7 @@
   orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
-  image: https://drive.google.com/file/d/1-FhTnp3J2JLc5uO_8axU7grYtaYdU-4u/view?usp=sharing
+  image: https://drive.google.com/uc?id=1-FhTnp3J2JLc5uO_8axU7grYtaYdU-4u
 - id: doi:10.1175/jcli-d-20-0281.1
   title: A Mass and Energy Conservation Analysis of Drift in the CMIP6 Ensemble
   authors:
