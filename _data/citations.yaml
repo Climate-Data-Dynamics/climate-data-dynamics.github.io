@@ -329,7 +329,7 @@
   orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
-  image: https://drive.google.com/uc?export=view&id=1-HF1W98YExDWaZXrAuZVFVArkHKBM9nQ
+  image: https://journals.ametsoc.org/view/journals/clim/36/8/full-JCLI-D-22-0267.1-f1.jpg
 - id: doi:10.1175/jcli-d-21-0793.1
   title: Mechanisms of Ocean Heat Uptake along and across Isopycnals
   authors:
@@ -448,7 +448,7 @@
   orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
-  image: https://drive.google.com/uc?export=view&id=1-FhTnp3J2JLc5uO_8axU7grYtaYdU-4u
+  image: https://drive.google.com/file/d/1-FhTnp3J2JLc5uO_8axU7grYtaYdU-4u/view?usp=sharing
 - id: doi:10.1175/jcli-d-20-0281.1
   title: A Mass and Energy Conservation Analysis of Drift in the CMIP6 Ensemble
   authors:
