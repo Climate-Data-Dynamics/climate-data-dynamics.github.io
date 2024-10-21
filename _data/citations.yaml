@@ -329,7 +329,7 @@
   orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
-  image: https://journals.ametsoc.org/view/journals/clim/36/8/full-JCLI-D-22-0267.1-f1.jpg
+  image: https://journals.ametsoc.org/view/journals/clim/36/8/inline-JCLI-D-22-0267.1-f1.jpg
 - id: doi:10.1175/jcli-d-21-0793.1
   title: Mechanisms of Ocean Heat Uptake along and across Isopycnals
   authors:
