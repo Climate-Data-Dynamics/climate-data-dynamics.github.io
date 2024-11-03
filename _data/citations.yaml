@@ -13,6 +13,18 @@
   plugin: sources.py
   file: sources.yaml
   image: https://journals.ametsoc.org/view/journals/phoc/53/2/full-JPO-D-22-0145.1-f2.jpg
+- id: doi:10.1175/jpo-d-23-0153.1
+  title: Unsupervised Classification Identifies Warm, Fresh, and Dense Regimes of
+    the Antarctic Margins
+  authors:
+  - T. Sohail
+  - J. D. Zika
+  publisher: Journal of Physical Oceanography
+  date: '2024-06-01'
+  link: https://doi.org/g72tv9
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1029/2023gl105374
   title: Anthropogenic Aerosols Offsetting Ocean Warming Less Efficiently Since the
     1980s
@@ -276,18 +288,6 @@
   plugin: sources.py
   file: sources.yaml
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-020-15754-3/MediaObjects/41467_2020_15754_Fig1_HTML.png?as=webp
-- id: doi:10.1175/jpo-d-23-0153.1
-  title: Unsupervised Classification Identifies Warm, Fresh, and Dense Regimes of
-    the Antarctic Margins
-  authors:
-  - T. Sohail
-  - J. D. Zika
-  publisher: Journal of Physical Oceanography
-  date: '2024-06-01'
-  link: https://doi.org/g72tv9
-  orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1029/2023jc020259
   title: The Ocean's Meridional Oxygen Transport
   authors:
