@@ -1,5 +1,17 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1175/JPO-D-24-0061.1
+  title: Does Cabbeling Shape the Thermohaline Structure of High-Latitude Oceans?
+  authors:
+  - Josef I. Bisits
+  - Jan D. Zika
+  - Dafydd Gwyn Evans
+  publisher: Journal of Physical Oceanography
+  date: '2024-12-01'
+  link: https://doi.org/g8t62t
+  orcid: 0000-0002-6340-4470
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1175/jpo-d-22-0145.1
   title: Can We Accurately Quantify a Lateral Diffusivity from a Single Tracer Release?
   authors:
