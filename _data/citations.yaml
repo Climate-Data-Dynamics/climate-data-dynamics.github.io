@@ -354,6 +354,23 @@
   orcid: 0000-0003-3462-3559
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.3389/fmars.2023.1027704
+  title: Sensitivity of simulated water mass transformation on the Antarctic shelf
+    to tides, topography and model resolution
+  authors:
+  - Fabio Boeira Dias
+  - Stephen R. Rintoul
+  - Ole Richter
+  - Benjamin Keith Galton-Fenzi
+  - Jan D. Zika
+  - Violaine Pellichero
+  - Petteri Uotila
+  publisher: Frontiers in Marine Science
+  date: '2023-04-12'
+  link: https://doi.org/gtkpwn
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1175/jcli-d-22-0267.1
   title: Rectified Ocean Heat Uptake from Oscillatory Surface Forcing
   authors:
