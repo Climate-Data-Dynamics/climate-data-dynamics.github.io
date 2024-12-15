@@ -25,6 +25,32 @@
   plugin: sources.py
   file: sources.yaml
   image: https://journals.ametsoc.org/view/journals/phoc/53/2/full-JPO-D-22-0145.1-f2.jpg
+- id: doi:10.5194/gmd-17-8049-2024
+  title: An optimal transformation method for inferring ocean tracer sources and sinks
+  authors:
+  - Jan D. Zika
+  - Taimoor Sohail
+  publisher: Geoscientific Model Development
+  date: '2024-11-12'
+  link: https://doi.org/g8q23p
+  orcid: 0000-0002-4162-3269
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.5194/gmd-17-5987-2024
+  title: An optimal transformation method applied to diagnose  the  ocean carbon budget
+  authors:
+  - Neill Mackay
+  - Taimoor Sohail
+  - Jan David Zika
+  - Richard G. Williams
+  - Oliver Andrews
+  - Andrew James Watson
+  publisher: Geoscientific Model Development
+  date: '2024-08-13'
+  link: https://doi.org/g72tv7
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1175/jpo-d-23-0153.1
   title: Unsupervised Classification Identifies Warm, Fresh, and Dense Regimes of
     the Antarctic Margins
