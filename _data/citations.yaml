@@ -36,6 +36,54 @@
   orcid: 0000-0002-4162-3269
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1029/2022rg000781
+  title: 'Closing the Loops on Southern Ocean Dynamics: From the Circumpolar Current
+    to Ice Shelves and From Bottom Mixing to Surface Waves'
+  authors:
+  - Luke G. Bennetts
+  - Callum J. Shakespeare
+  - Catherine A. Vreugdenhil
+  - Annie Foppert
+  - Bishakhdatta Gayen
+  - Amelie Meyer
+  - Adele K. Morrison
+  - Laurie Padman
+  - Helen E. Phillips
+  - Craig L. Stevens
+  - Alessandro Toffoli
+  - Navid C. Constantinou
+  - Jesse M. Cusack
+  - Ajitha Cyriac
+  - Edward W. Doddridge
+  - Matthew H. England
+  - D. Gwyn Evans
+  - Petra Heil
+  - Andrew McC. Hogg
+  - Ryan M. Holmes
+  - Wilma G. C. Huneke
+  - Nicole L. Jones
+  - Shane R. Keating
+  - Andrew E. Kiss
+  - Noa Kraitzman
+  - Alena Malyarenko
+  - Craig D. McConnochie
+  - Alberto Meucci
+  - Fabien Montiel
+  - Julia Neme
+  - Maxim Nikurashin
+  - Ramkrushnbhai S. Patel
+  - "Jen\u2010Ping Peng"
+  - Matthew Rayson
+  - Madelaine G. Rosevear
+  - Taimoor Sohail
+  - Paul Spence
+  - Geoffrey J. Stanley
+  publisher: Reviews of Geophysics
+  date: '2024-07-30'
+  link: https://doi.org/g8prx8
+  orcid: 0000-0002-4162-3269
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.5194/gmd-17-5987-2024
   title: An optimal transformation method applied to diagnose  the  ocean carbon budget
   authors:
