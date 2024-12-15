@@ -115,7 +115,10 @@ journals = ["Journal of Physical Oceanography", "Journal of Climate", "Nature",
             "Journal of Atmospheric and Oceanic Technology", "Environmental Research Letters",
             "Ocean Modelling", "Bulletin of the American Meteorological Society", "Scientific Reports",
             "Science", "Journal of the Atmospheric Sciences", "Nature Climate Change",
-            "Journal of Advances in Modeling Earth Systems"]
+            "Journal of Advances in Modeling Earth Systems",
+            "Geoscientific Model Development",
+            "Frontiers in Marine Science",
+            "Reviews of Geophysics"]
 
 # list of new citations
 citations = []
