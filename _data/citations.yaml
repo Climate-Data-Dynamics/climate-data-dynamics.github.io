@@ -1,6 +1,6 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1175/jpo-d-24-0061.1
+- id: doi:10.1175/JPO-D-24-0061.1
   title: Does Cabbeling Shape the Thermohaline Structure of High-Latitude Oceans?
   authors:
   - Josef I. Bisits
@@ -9,7 +9,7 @@
   publisher: Journal of Physical Oceanography
   date: '2024-12-01'
   link: https://doi.org/g8t62t
-  orcid: 0000-0003-3462-3559
+  orcid: 0000-0002-6340-4470
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1175/jpo-d-22-0145.1
@@ -203,8 +203,9 @@
   date: '2021-02-09'
   link: https://doi.org/gr6zp8
   orcid: 0000-0002-4162-3269
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/0c55a4b0-b3de-40e9-92a4-8d1b53ccadcb/grl61613-fig-0001-m.jpg
 - id: doi:10.1175/jpo-d-19-0264.1
   title: The Dynamics of Mixed Layer Deepening during Open-Ocean Convection
   authors:
@@ -242,8 +243,9 @@
   date: '2018-05-11'
   link: https://doi.org/gdjx8s
   orcid: 0000-0002-4162-3269
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/bcdbbe4d-96ae-46f5-a0f0-def70c529fb0/grl57301-fig-0001-m.jpg
 - id: doi:10.1098/rsta.2022.0056
   title: Southern ocean carbon and heat impact on climate
   authors:
@@ -372,6 +374,18 @@
   plugin: sources.py
   file: sources.yaml
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-020-15754-3/MediaObjects/41467_2020_15754_Fig1_HTML.png?as=webp
+- id: doi:10.1175/jpo-d-24-0061.1
+  title: Does Cabbeling Shape the Thermohaline Structure of High-Latitude Oceans?
+  authors:
+  - Josef I. Bisits
+  - Jan D. Zika
+  - Dafydd Gwyn Evans
+  publisher: Journal of Physical Oceanography
+  date: '2024-12-01'
+  link: https://doi.org/g8t62t
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1029/2023jc020259
   title: The Ocean's Meridional Oxygen Transport
   authors:
@@ -547,8 +561,9 @@
   date: '2022-01-01'
   link: https://doi.org/gr6zsz
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://drive.google.com/uc?id=1-FhTnp3J2JLc5uO_8axU7grYtaYdU-4u
 - id: doi:10.1175/jcli-d-20-0281.1
   title: A Mass and Energy Conservation Analysis of Drift in the CMIP6 Ensemble
   authors:
@@ -652,8 +667,9 @@
   date: '2019-01-01'
   link: https://doi.org/gfs9z9
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/phoc/49/1/full-jpo-d-18-0098.1-f1.jpg
 - id: doi:10.1146/annurev-marine-010318-095421
   title: The Water Mass Transformation Framework for Ocean Physics and Biogeochemistry
   authors:
@@ -682,8 +698,9 @@
   date: '2018-12-01'
   link: https://doi.org/gr6zs7
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/atot/35/12/inline-jtech-d-17-0198.1-f3.jpg
 - id: doi:10.1088/1748-9326/aace42
   title: 'Improved estimates of water cycle change from ocean salinity: the key role
     of ocean warming'
@@ -772,8 +789,9 @@
   date: '2018-12-21'
   link: https://doi.org/gfpf9v
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/6413c723-0ba9-45e2-aeb4-d57291e55d1f/grl58376-fig-0001-m.jpg
 - id: doi:10.1175/jpo-d-16-0125.1
   title: Mixing Inferred from an Ocean Climatology and Surface Fluxes
   authors:
@@ -817,8 +835,9 @@
   date: '2017-10-09'
   link: https://doi.org/gchkn3
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/4d0ebc30-518f-465f-8a4b-7fc32908f052/grl56476-fig-0003-m.jpg
 - id: doi:10.1098/rsta.2016.0324
   title: High-latitude ocean ventilation and its role in Earth's climate transitions
   authors:
@@ -877,8 +896,9 @@
   date: '2017-04-01'
   link: https://doi.org/grnh27
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/bams/98/4/inline-bams-d-16-0057.1-f1.jpg
 - id: doi:10.1175/JCLI-D-15-0759.1
   title: "The Coupled Ocean\u2013Atmosphere Hydrothermohaline Circulation"
   authors:
@@ -892,8 +912,9 @@
   date: '2017-01-15'
   link: https://doi.org/f9kp3z
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/clim/30/2/inline-jcli-d-15-0759.1-f8.jpg
 - id: doi:10.1175/JPO-D-15-0025.1
   title: A Microscale View of Mixing and Overturning across the Antarctic Circumpolar
     Current
@@ -907,8 +928,9 @@
   date: '2016-01-01'
   link: https://doi.org/f7753v
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/phoc/46/1/inline-jpo-d-15-0025.1-f1.jpg
 - id: doi:10.1002/2016JC012091
   title: Assessing recent air-sea freshwater flux changes using a surface temperature-salinity
     space framework
@@ -922,8 +944,9 @@
   date: '2016-12-01'
   link: https://doi.org/f9pzfv
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/23b94c60-2ccb-4c3b-b5b8-f018a7ad33a6/jgrc22017-fig-0002-m.jpg
 - id: doi:10.1038/srep38752
   title: Global water cycle amplifying at less than the Clausius-Clapeyron rate
   authors:
@@ -953,8 +976,9 @@
   date: '2016-01-14'
   link: https://doi.org/gr6ztb
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/a6e0c558-b5e5-4fa3-9039-724ddad8727e/grl53879-fig-0003-m.jpg
 - id: doi:10.1002/2015GL064156
   title: Changes in ocean vertical heat transport with global warming
   authors:
@@ -967,8 +991,9 @@
   date: '2015-06-28'
   link: https://doi.org/f7jzpq
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/cada7554-84a5-4d3e-a226-f8ef28846a15/grl53026-fig-0002-m.jpg
 - id: doi:10.1126/science.1257103
   title: Constrained work output of the moist atmospheric heat engine in a warming
     climate
@@ -1001,8 +1026,9 @@
   date: '2015-12-15'
   link: https://doi.org/f73bz4
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/clim/28/24/inline-jcli-d-15-0273.1-f1.jpg
 - id: doi:10.1175/JPO-D-14-0053.1
   title: Sensitivity of Antarctic Circumpolar Current Transport and Eddy Activity
     to Wind Patterns in the Southern Ocean
@@ -1014,8 +1040,9 @@
   date: '2015-04-01'
   link: https://doi.org/f68qs8
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/phoc/45/4/inline-jpo-d-14-0053.1-f4.jpg
 - id: doi:10.1175/JPO-D-14-0039.1
   title: A Thermohaline Inverse Method for Estimating Diathermohaline Circulation
     and Mixing
@@ -1029,8 +1056,9 @@
   date: '2014-10-01'
   link: https://doi.org/f6khjw
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/phoc/44/10/inline-jpo-d-14-0039.1-f6.jpg
 - id: doi:10.1007/s00382-013-1992-5
   title: 'Revisiting meridional overturing bistability using a minimal set of state
     variables: stochastic theory'
@@ -1057,508 +1085,40 @@
   date: '2014-02-27'
   link: https://doi.org/f24ckr
   orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1002/2014JC010097
-  title: The imprint of Southern Ocean overturning on seasonal water mass variability
-    in Drake Passage
-  authors:
-  - Dafydd Gwyn Evans
-  - Jan D. Zika
-  - Alberto C. Naveira Garabato
-  - A. J. George Nurser
-  publisher: 'Journal of Geophysical Research: Oceans'
-  date: '2014-11-01'
-  link: https://doi.org/gr6ztc
-  orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1175/JPO-D-13-0213.1
-  title: The Representation of Ocean Circulation and Variability in Thermodynamic
-    Coordinates
-  authors:
-  - Sjoerd Groeskamp
-  - Jan D. Zika
-  - Trevor J. McDougall
-  - Bernadette M. Sloyan
-  - "Fr\xE9d\xE9ric Lalibert\xE9"
-  publisher: Journal of Physical Oceanography
-  date: '2014-07-01'
-  link: https://doi.org/f59xtq
-  orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1175/JPO-D-13-091.1
-  title: Acceleration of the Antarctic Circumpolar Current by Wind Stress along the
-    Coast of Antarctica
-  authors:
-  - Jan D. Zika
-  - Julien Le Sommer
-  - Carolina O. Dufour
-  - Alberto Naveira-Garabato
-  - Adam Blaker
-  publisher: Journal of Physical Oceanography
-  date: '2013-12-01'
-  link: https://doi.org/f5jjds
-  orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1175/JPO-D-12-0178.1
-  title: Vertical Eddy Fluxes in the Southern Ocean
-  authors:
-  - Jan D. Zika
-  - Julien Le Sommer
-  - Carolina O. Dufour
-  - Jean-Marc Molines
-  - Bernard Barnier
-  - Pierre Brasseur
-  - "Rapha\xEBl Dussin"
-  - Thierry Penduff
-  - Daniele Iudicone
-  - Andrew Lenton
-  - Gurvan Madec
-  - Pierre Mathiot
-  - James Orr
-  - Emily Shuckburgh
-  - Frederic Vivier
-  publisher: Journal of Physical Oceanography
-  date: '2013-05-01'
-  link: https://doi.org/f4zhn4
-  orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1175/JPO-D-12-0179.1
-  title: Vertical Heat Transport by Ocean Circulation and the Role of Mechanical and
-    Haline Forcing
-  authors:
-  - Jan D. Zika
-  - Willem P. Sijp
-  - Matthew H. England
-  publisher: Journal of Physical Oceanography
-  date: '2013-10-01'
-  link: https://doi.org/gr6ztd
-  orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1175/JCLI-D-11-00309.1
-  title: Standing and Transient Eddies in the Response of the Southern Ocean Meridional
-    Overturning to the Southern Annular Mode
-  authors:
-  - C. O. Dufour
-  - J. Le Sommer
-  - J. D. Zika
-  - M. Gehlen
-  - J. C. Orr
-  - P. Mathiot
-  - B. Barnier
-  publisher: Journal of Climate
-  date: '2012-05-11'
-  link: https://doi.org/f4b9c2
-  orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1029/2012GL051004
-  title: "Tasman leakage in a fine\u2010resolution ocean model"
-  authors:
-  - Erik van Sebille
-  - Matthew H. England
-  - Jan D. Zika
-  - Bernadette M. Sloyan
-  publisher: Geophysical Research Letters
-  date: '2012-03-24'
-  link: https://doi.org/gr6ztf
-  orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1175/JPO-D-11-0139.1
-  title: The Ocean Circulation in Thermohaline Coordinates
-  authors:
-  - Jan D. Zika
-  - Matthew H. England
-  - Willem P. Sijp
-  publisher: Journal of Physical Oceanography
-  date: '2012-05-01'
-  link: https://doi.org/d2jwrk
-  orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1175/JCLI-D-11-00077.1
-  title: Sea Level Expression of Intrinsic and Forced Ocean Variabilities at Interannual
-    Time Scales
-  authors:
-  - Thierry Penduff
-  - "M\xE9lanie Juza"
-  - Bernard Barnier
-  - Jan Zika
-  - William K. Dewar
-  - Anne-Marie Treguier
-  - Jean-Marc Molines
-  - Nicole Audiffren
-  publisher: Journal of Climate
-  date: '2011-11-01'
-  link: https://doi.org/fd9dxf
-  orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1175/2009JPO4208.1
-  title: A Tracer-Contour Inverse Method for Estimating Ocean Circulation and Mixing
-  authors:
-  - Jan D. Zika
-  - Trevor J. McDougall
-  - Bernadette M. Sloyan
-  publisher: Journal of Physical Oceanography
-  date: '2010-01-01'
-  link: https://doi.org/d96kck
-  orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1175/2010JPO4360.1
-  title: 'Weak Mixing in the Eastern North Atlantic: An Application of the Tracer-Contour
-    Inverse Method'
-  authors:
-  - Jan D. Zika
-  - Trevor J. McDougall
-  - Bernadette M. Sloyan
-  publisher: Journal of Physical Oceanography
-  date: '2010-08-01'
-  link: https://doi.org/cxgpfj
-  orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1175/2009JPO4052.1
-  title: Diagnosing the Southern Ocean Overturning from Tracer Fields
-  authors:
-  - Jan D. Zika
-  - Bernadette M. Sloyan
-  - Trevor J. McDougall
-  publisher: Journal of Physical Oceanography
-  date: '2009-11-01'
-  link: https://doi.org/dq34km
-  orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1175/2007JPO3507.1
-  title: Vertical and Lateral Mixing Processes Deduced from the Mediterranean Water
-    Signature in the North Atlantic
-  authors:
-  - Jan D. Zika
-  - Trevor J. McDougall
-  publisher: Journal of Physical Oceanography
-  date: '2008-01-01'
-  link: https://doi.org/dq42gm
-  orcid: 0000-0003-3462-3559
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/B978-0-12-821512-8.00010-4
-  title: The role of mixing in the large-scale ocean circulation
-  authors:
-  - Casimir de Lavergne
-  - Sjoerd Groeskamp
-  - Jan Zika
-  - Helen L. Johnson
-  publisher: Ocean Mixing
-  date: '2022-01-01'
-  link: https://doi.org/gr6zsz
-  image: https://drive.google.com/uc?id=1-FhTnp3J2JLc5uO_8axU7grYtaYdU-4u
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1029/2020GL089455
-  title: Roles of Shear and Convection in Driving Mixing in the Ocean
-  authors:
-  - Gregory N. Ivey
-  - Cynthia E. Bluteau
-  - Bishakhdatta Gayen
-  - Nicole L. Jones
-  - Taimoor Sohail
-  publisher: Geophysical Research Letters
-  date: '2021-02-09'
-  link: https://doi.org/gr6zp8
-  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/8e000b8a-f1d7-4784-9462-05736b339a09/grl61613-fig-0001-m.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1029/2018GL077711
-  title: Convection Enhances Mixing in the Southern Ocean
-  authors:
-  - Taimoor Sohail
-  - Bishakhdatta Gayen
-  - Andrew McC. Hogg
-  publisher: Geophysical Research Letters
-  date: '2018-05-11'
-  link: https://doi.org/gdjx8s
-  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/bcdbbe4d-96ae-46f5-a0f0-def70c529fb0/grl57301-fig-0001-m.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1029/2020GL089455
-  title: Roles of Shear and Convection in Driving Mixing in the Ocean
-  authors:
-  - Gregory N. Ivey
-  - Cynthia E. Bluteau
-  - Bishakhdatta Gayen
-  - Nicole L. Jones
-  - Taimoor Sohail
-  publisher: Geophysical Research Letters
-  date: '2021-02-09'
-  link: https://doi.org/gr6zp8
-  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/0c55a4b0-b3de-40e9-92a4-8d1b53ccadcb/grl61613-fig-0001-m.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1175/JPO-D-18-0098.1
-  title: Diathermal Heat Transport in a Global Ocean Model
-  authors:
-  - Ryan M. Holmes
-  - Jan D. Zika
-  - Matthew H. England
-  publisher: Journal of Physical Oceanography
-  date: '2019-01-01'
-  link: https://doi.org/gfs9z9
-  image: https://journals.ametsoc.org/view/journals/phoc/49/1/full-jpo-d-18-0098.1-f1.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1029/2018GL079986
-  title: The Cold Transit of Southern Ocean Upwelling
-  authors:
-  - Dafydd Gwyn Evans
-  - Jan D. Zika
-  - Alberto C. Naveira Garabato
-  - A. J. George Nurser
-  publisher: Geophysical Research Letters
-  date: '2018-12-21'
-  link: https://doi.org/gfpf9v
-  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/6413c723-0ba9-45e2-aeb4-d57291e55d1f/grl58376-fig-0001-m.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1175/JTECH-D-17-0198.1
-  title: A Regional Thermohaline Inverse Method for Estimating Circulation and Mixing
-    in the Arctic and Subpolar North Atlantic
-  authors:
-  - Neill Mackay
-  - Chris Wilson
-  - Jan Zika
-  - N. Penny Holliday
-  publisher: Journal of Atmospheric and Oceanic Technology
-  date: '2018-12-01'
-  link: https://doi.org/gr6zs7
-  image: https://journals.ametsoc.org/view/journals/atot/35/12/inline-jtech-d-17-0198.1-f3.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1002/2017GL075182
-  title: Can the Ocean's Heat Engine Control Horizontal Circulation? Insights From
-    the Caspian Sea
-  authors:
-  - Nicolas Bruneau
-  - Jan Zika
-  - Ralf Toumi
-  publisher: Geophysical Research Letters
-  date: '2017-10-09'
-  link: https://doi.org/gchkn3
-  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/4d0ebc30-518f-465f-8a4b-7fc32908f052/grl56476-fig-0003-m.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1175/BAMS-D-16-0057.1
-  title: 'Overturning in the Subpolar North Atlantic Program: A New International
-    Ocean Observing System'
-  authors:
-  - M. Susan Lozier
-  - Sheldon Bacon
-  - Amy S. Bower
-  - Stuart A. Cunningham
-  - M. Femke de Jong
-  - Laura de Steur
-  - Brad deYoung
-  - "J\xFCrgen Fischer"
-  - Stefan F. Gary
-  - Blair J. W. Greenan
-  - Patrick Heimbach
-  - Naomi P. Holliday
-  - "Lo\xEFc Houpert"
-  - Mark E. Inall
-  - William E. Johns
-  - Helen L. Johnson
-  - Johannes Karstensen
-  - Feili Li
-  - Xiaopei Lin
-  - Neill Mackay
-  - David P. Marshall
-  - "Herl\xE9 Mercier"
-  - Paul G. Myers
-  - Robert S. Pickart
-  - Helen R. Pillar
-  - Fiammetta Straneo
-  - Virginie Thierry
-  - Robert A. Weller
-  - Richard G. Williams
-  - Chris Wilson
-  - Jiayan Yang
-  - Jian Zhao
-  - Jan D. Zika
-  publisher: Bulletin of the American Meteorological Society
-  date: '2017-04-01'
-  link: https://doi.org/grnh27
-  image: https://journals.ametsoc.org/view/journals/bams/98/4/inline-bams-d-16-0057.1-f1.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1175/JCLI-D-15-0759.1
-  title: "The Coupled Ocean\u2013Atmosphere Hydrothermohaline Circulation"
-  authors:
-  - "Kristofer D\xF6\xF6s"
-  - Joakim Kjellsson
-  - Jan Zika
-  - "Fr\xE9d\xE9ric Lalibert\xE9"
-  - Laurent Brodeau
-  - Aitor Aldama Campino
-  publisher: Journal of Climate
-  date: '2017-01-15'
-  link: https://doi.org/f9kp3z
-  image: https://journals.ametsoc.org/view/journals/clim/30/2/inline-jcli-d-15-0759.1-f8.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1002/2016JC012091
-  title: Assessing recent air-sea freshwater flux changes using a surface temperature-salinity
-    space framework
-  authors:
-  - Jeremy P. Grist
-  - Simon A. Josey
-  - Jan D. Zika
-  - Dafydd Gwyn Evans
-  - Nikolaos Skliris
-  publisher: 'Journal of Geophysical Research: Oceans'
-  date: '2016-12-01'
-  link: https://doi.org/f9pzfv
-  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/23b94c60-2ccb-4c3b-b5b8-f018a7ad33a6/jgrc22017-fig-0002-m.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1002/2015GL066658
-  title: The thermodynamic balance of the Weddell Gyre
-  authors:
-  - Alberto C. Naveira Garabato
-  - Jan D. Zika
-  - "Lo\xEFc Jullion"
-  - Peter J. Brown
-  - Paul R. Holland
-  - Michael P. Meredith
-  - Sheldon Bacon
-  publisher: Geophysical Research Letters
-  date: '2016-01-14'
-  link: https://doi.org/gr6ztb
-  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/a6e0c558-b5e5-4fa3-9039-724ddad8727e/grl53879-fig-0003-m.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1175/JPO-D-15-0025.1
-  title: A Microscale View of Mixing and Overturning across the Antarctic Circumpolar
-    Current
-  authors:
-  - Alberto C. Naveira Garabato
-  - Kurt L. Polzin
-  - Raffaele Ferrari
-  - Jan D. Zika
-  - Alexander Forryan
-  publisher: Journal of Physical Oceanography
-  date: '2016-01-01'
-  link: https://doi.org/f7753v
-  image: https://journals.ametsoc.org/view/journals/phoc/46/1/inline-jpo-d-15-0025.1-f1.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1175/JCLI-D-15-0273.1
-  title: "Maintenance and Broadening of the Ocean\u2019s Salinity Distribution by\
-    \ the Water Cycle"
-  authors:
-  - Jan D. Zika
-  - Nikolaos Skliris
-  - A. J. George Nurser
-  - Simon A. Josey
-  - Lawrence Mudryk
-  - "Fr\xE9d\xE9ric Lalibert\xE9"
-  - Robert Marsh
-  publisher: Journal of Climate
-  date: '2015-12-15'
-  link: https://doi.org/f73bz4
-  image: https://journals.ametsoc.org/view/journals/clim/28/24/inline-jcli-d-15-0273.1-f1.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1002/2015GL064156
-  title: Changes in ocean vertical heat transport with global warming
-  authors:
-  - Jan D. Zika
-  - "Fr\xE9d\xE9ric Lalibert\xE9"
-  - Lawrence R. Mudryk
-  - Willem P. Sijp
-  - A. J. G. Nurser
-  publisher: Geophysical Research Letters
-  date: '2015-06-28'
-  link: https://doi.org/f7jzpq
-  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/cada7554-84a5-4d3e-a226-f8ef28846a15/grl53026-fig-0002-m.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1175/JPO-D-14-0053.1
-  title: Sensitivity of Antarctic Circumpolar Current Transport and Eddy Activity
-    to Wind Patterns in the Southern Ocean
-  authors:
-  - Clothilde E. Langlais
-  - Stephen R. Rintoul
-  - Jan D. Zika
-  publisher: Journal of Physical Oceanography
-  date: '2015-04-01'
-  link: https://doi.org/f68qs8
-  image: https://journals.ametsoc.org/view/journals/phoc/45/4/inline-jpo-d-14-0053.1-f4.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1002/2014JC010097
-  title: The imprint of Southern Ocean overturning on seasonal water mass variability
-    in Drake Passage
-  authors:
-  - Dafydd Gwyn Evans
-  - Jan D. Zika
-  - Alberto C. Naveira Garabato
-  - A. J. George Nurser
-  publisher: 'Journal of Geophysical Research: Oceans'
-  date: '2014-11-01'
-  link: https://doi.org/gr6ztc
-  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/03bfc435-03ca-4fe5-9921-0f3a47e8e9a2/jgrc20971-fig-0003-m.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1175/JPO-D-14-0039.1
-  title: A Thermohaline Inverse Method for Estimating Diathermohaline Circulation
-    and Mixing
-  authors:
-  - Sjoerd Groeskamp
-  - Jan D. Zika
-  - Bernadette M. Sloyan
-  - Trevor J. McDougall
-  - Peter C. McIntosh
-  publisher: Journal of Physical Oceanography
-  date: '2014-10-01'
-  link: https://doi.org/f6khjw
-  image: https://journals.ametsoc.org/view/journals/phoc/44/10/inline-jpo-d-14-0039.1-f6.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1175/JPO-D-13-0213.1
-  title: The Representation of Ocean Circulation and Variability in Thermodynamic
-    Coordinates
-  authors:
-  - Sjoerd Groeskamp
-  - Jan D. Zika
-  - Trevor J. McDougall
-  - Bernadette M. Sloyan
-  - "Fr\xE9d\xE9ric Lalibert\xE9"
-  publisher: Journal of Physical Oceanography
-  date: '2014-07-01'
-  link: https://doi.org/f59xtq
-  image: https://journals.ametsoc.org/view/journals/phoc/44/7/inline-jpo-d-13-0213.1-f10.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1175/JAS-D-13-0173.1
-  title: The Atmospheric General Circulation in Thermodynamical Coordinates
-  authors:
-  - Joakim Kjellsson
-  - "Kristofer D\xF6\xF6s"
-  - "Fr\xE9d\xE9ric B. Lalibert\xE9"
-  - Jan D. Zika
-  publisher: Journal of the Atmospheric Sciences
-  date: '2014-02-27'
-  link: https://doi.org/f24ckr
   image: https://journals.ametsoc.org/view/journals/atsc/71/3/inline-jas-d-13-0173.1-f1.jpg
+- id: doi:10.1002/2014JC010097
+  title: The imprint of Southern Ocean overturning on seasonal water mass variability
+    in Drake Passage
+  authors:
+  - Dafydd Gwyn Evans
+  - Jan D. Zika
+  - Alberto C. Naveira Garabato
+  - A. J. George Nurser
+  publisher: 'Journal of Geophysical Research: Oceans'
+  date: '2014-11-01'
+  link: https://doi.org/gr6ztc
+  orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/03bfc435-03ca-4fe5-9921-0f3a47e8e9a2/jgrc20971-fig-0003-m.jpg
+- id: doi:10.1175/JPO-D-13-0213.1
+  title: The Representation of Ocean Circulation and Variability in Thermodynamic
+    Coordinates
+  authors:
+  - Sjoerd Groeskamp
+  - Jan D. Zika
+  - Trevor J. McDougall
+  - Bernadette M. Sloyan
+  - "Fr\xE9d\xE9ric Lalibert\xE9"
+  publisher: Journal of Physical Oceanography
+  date: '2014-07-01'
+  link: https://doi.org/f59xtq
+  orcid: 0000-0003-3462-3559
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/phoc/44/7/inline-jpo-d-13-0213.1-f10.jpg
 - id: doi:10.1175/JPO-D-13-091.1
   title: Acceleration of the Antarctic Circumpolar Current by Wind Stress along the
     Coast of Antarctica
@@ -1571,22 +1131,10 @@
   publisher: Journal of Physical Oceanography
   date: '2013-12-01'
   link: https://doi.org/f5jjds
+  orcid: 0000-0003-3462-3559
+  plugin: sources.py
+  file: sources.yaml
   image: https://journals.ametsoc.org/view/journals/phoc/43/12/full-jpo-d-13-091.1-f5.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1175/JPO-D-12-0179.1
-  title: Vertical Heat Transport by Ocean Circulation and the Role of Mechanical and
-    Haline Forcing
-  authors:
-  - Jan D. Zika
-  - Willem P. Sijp
-  - Matthew H. England
-  publisher: Journal of Physical Oceanography
-  date: '2013-10-01'
-  link: https://doi.org/gr6ztd
-  image: https://journals.ametsoc.org/view/journals/phoc/43/10/inline-jpo-d-12-0179.1-f3.jpg
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.1175/JPO-D-12-0178.1
   title: Vertical Eddy Fluxes in the Southern Ocean
   authors:
@@ -1608,9 +1156,24 @@
   publisher: Journal of Physical Oceanography
   date: '2013-05-01'
   link: https://doi.org/f4zhn4
-  image: https://journals.ametsoc.org/view/journals/phoc/43/5/inline-jpo-d-12-0178.1-f2.jpg
+  orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/phoc/43/5/inline-jpo-d-12-0178.1-f2.jpg
+- id: doi:10.1175/JPO-D-12-0179.1
+  title: Vertical Heat Transport by Ocean Circulation and the Role of Mechanical and
+    Haline Forcing
+  authors:
+  - Jan D. Zika
+  - Willem P. Sijp
+  - Matthew H. England
+  publisher: Journal of Physical Oceanography
+  date: '2013-10-01'
+  link: https://doi.org/gr6ztd
+  orcid: 0000-0003-3462-3559
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/phoc/43/10/inline-jpo-d-12-0179.1-f3.jpg
 - id: doi:10.1175/JCLI-D-11-00309.1
   title: Standing and Transient Eddies in the Response of the Southern Ocean Meridional
     Overturning to the Southern Annular Mode
@@ -1625,21 +1188,10 @@
   publisher: Journal of Climate
   date: '2012-05-11'
   link: https://doi.org/f4b9c2
+  orcid: 0000-0003-3462-3559
+  plugin: sources.py
+  file: sources.yaml
   image: https://journals.ametsoc.org/view/journals/clim/25/20/inline-jcli-d-11-00309.1-f1.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1175/JPO-D-11-0139.1
-  title: The Ocean Circulation in Thermohaline Coordinates
-  authors:
-  - Jan D. Zika
-  - Matthew H. England
-  - Willem P. Sijp
-  publisher: Journal of Physical Oceanography
-  date: '2012-05-01'
-  link: https://doi.org/d2jwrk
-  image: https://journals.ametsoc.org/view/journals/phoc/42/5/inline-jpo-d-11-0139.1-f8.jpg
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.1029/2012GL051004
   title: "Tasman leakage in a fine\u2010resolution ocean model"
   authors:
@@ -1650,9 +1202,23 @@
   publisher: Geophysical Research Letters
   date: '2012-03-24'
   link: https://doi.org/gr6ztf
-  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/3763f7a6-ce23-471b-ac6e-a69577cd2bd9/grl29008-fig-0002.png
+  orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/3763f7a6-ce23-471b-ac6e-a69577cd2bd9/grl29008-fig-0002.png
+- id: doi:10.1175/JPO-D-11-0139.1
+  title: The Ocean Circulation in Thermohaline Coordinates
+  authors:
+  - Jan D. Zika
+  - Matthew H. England
+  - Willem P. Sijp
+  publisher: Journal of Physical Oceanography
+  date: '2012-05-01'
+  link: https://doi.org/d2jwrk
+  orcid: 0000-0003-3462-3559
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/phoc/42/5/inline-jpo-d-11-0139.1-f8.jpg
 - id: doi:10.1175/JCLI-D-11-00077.1
   title: Sea Level Expression of Intrinsic and Forced Ocean Variabilities at Interannual
     Time Scales
@@ -1668,9 +1234,23 @@
   publisher: Journal of Climate
   date: '2011-11-01'
   link: https://doi.org/fd9dxf
-  image: https://journals.ametsoc.org/view/journals/clim/24/21/inline-jcli-d-11-00077.1-f9.jpg
+  orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/clim/24/21/inline-jcli-d-11-00077.1-f9.jpg
+- id: doi:10.1175/2009JPO4208.1
+  title: A Tracer-Contour Inverse Method for Estimating Ocean Circulation and Mixing
+  authors:
+  - Jan D. Zika
+  - Trevor J. McDougall
+  - Bernadette M. Sloyan
+  publisher: Journal of Physical Oceanography
+  date: '2010-01-01'
+  link: https://doi.org/d96kck
+  orcid: 0000-0003-3462-3559
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/phoc/40/1/inline-i1520-0485-40-1-26-f02.jpg
 - id: doi:10.1175/2010JPO4360.1
   title: 'Weak Mixing in the Eastern North Atlantic: An Application of the Tracer-Contour
     Inverse Method'
@@ -1681,21 +1261,10 @@
   publisher: Journal of Physical Oceanography
   date: '2010-08-01'
   link: https://doi.org/cxgpfj
+  orcid: 0000-0003-3462-3559
+  plugin: sources.py
+  file: sources.yaml
   image: https://journals.ametsoc.org/view/journals/phoc/40/8/inline-i1520-0485-40-8-1881-f02.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1175/2009JPO4208.1
-  title: A Tracer-Contour Inverse Method for Estimating Ocean Circulation and Mixing
-  authors:
-  - Jan D. Zika
-  - Trevor J. McDougall
-  - Bernadette M. Sloyan
-  publisher: Journal of Physical Oceanography
-  date: '2010-01-01'
-  link: https://doi.org/d96kck
-  image: https://journals.ametsoc.org/view/journals/phoc/40/1/inline-i1520-0485-40-1-26-f02.jpg
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.1175/2009JPO4052.1
   title: Diagnosing the Southern Ocean Overturning from Tracer Fields
   authors:
@@ -1705,9 +1274,10 @@
   publisher: Journal of Physical Oceanography
   date: '2009-11-01'
   link: https://doi.org/dq34km
-  image: https://journals.ametsoc.org/view/journals/phoc/39/11/inline-i1520-0485-39-11-2926-f02.gif
+  orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/phoc/39/11/inline-i1520-0485-39-11-2926-f02.gif
 - id: doi:10.1175/2007JPO3507.1
   title: Vertical and Lateral Mixing Processes Deduced from the Mediterranean Water
     Signature in the North Atlantic
@@ -1717,6 +1287,7 @@
   publisher: Journal of Physical Oceanography
   date: '2008-01-01'
   link: https://doi.org/dq42gm
-  image: https://journals.ametsoc.org/view/journals/phoc/38/1/inline-i1520-0485-38-1-164-f01.gif
+  orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/phoc/38/1/inline-i1520-0485-38-1-164-f01.gif
