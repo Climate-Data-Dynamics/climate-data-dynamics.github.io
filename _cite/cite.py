@@ -89,7 +89,7 @@ for plugin in plugins:
 
 # merge sources with matching (non-blank) ids
 for a in range(0, len(sources)):
-    _id = sources[a].get("id", "").lower()
+    _id = sources[a].get("id", "")
     if not _id:
         continue
     for b in range(a + 1, len(sources)):
