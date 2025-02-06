@@ -89,7 +89,7 @@ for plugin in plugins:
 
 # merge sources with matching (non-blank) ids
 for a in range(0, len(sources)):
-    _id = sources[a].get("id", "")
+    _id = sources[a].get("id", "").lower()
     if not _id:
         continue
     for b in range(a + 1, len(sources)):
@@ -132,8 +132,6 @@ for index, source in enumerate(sources):
 
     # source id
     _id = source.get("id", "").strip()
-    _id = _id.lower()
-    print(_id)
 
     # Manubot doesn't work without an id
     if _id:
