@@ -93,7 +93,7 @@ for a in range(0, len(sources)):
     if not _id:
         continue
     for b in range(a + 1, len(sources)):
-        if sources[b].get("id", "") == _id:
+        if sources[b].get("id", "").lower() == _id.lower():
             sources[a].update(sources[b])
             sources[b] = {}
 sources = [entry for entry in sources if entry]
