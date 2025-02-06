@@ -1,3 +1,19 @@
+- id: doi:10.1175/jpo-d-24-0061.1
+  image: https://github.com/jbisits/jbisits.github.io/blob/master/assets/images/cab_schematic.png
+- id: doi:10.5194/gmd-17-8049-2024
+  image: https://gmd.copernicus.org/articles/17/8049/2024/gmd-17-8049-2024-avatar-web.png
+- id: doi:10.5194/gmd-17-5987-2024
+  image: https://gmd.copernicus.org/articles/17/5987/2024/gmd-17-5987-2024-avatar-web.png
+- id: doi:10.1029/2022rg000781
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/edb9efe3-a8e7-4709-9a10-09f915689aa1/rog20349-fig-0002-m.jpg
+- id: doi:10.1029/2023jc020259
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/6a988a8c-b704-4f7e-9e08-4910d2403e11/jgrc25810-fig-0002-m.jpg
+- id: doi:10.5194/os-20-123-2024
+  image: https://os.copernicus.org/articles/20/123/2024/os-20-123-2024-avatar-web.png
+- id: doi:10.1029/2023gl105374
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/8b0f9f8a-f94d-45ba-b100-cafbb5c5f1b7/grl66752-fig-0001-m.jpg
+- id: doi:10.1175/jpo-d-23-0153.1
+  image: https://journals.ametsoc.org/view/journals/phoc/54/6/full-JPO-D-23-0153.1-f1.jpg
 - id: doi:10.1175/jpo-d-22-0145.1
   image: https://journals.ametsoc.org/view/journals/phoc/53/2/full-JPO-D-22-0145.1-f2.jpg
 - id: doi:10.1175/jcli-d-22-0267.1
