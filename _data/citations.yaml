@@ -12,7 +12,7 @@
   orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
-  image: https://raw.githubusercontent.com/jbisits/jbisits.github.io/refs/heads/master/assets/images/cab_schematic.png
+  image: https://journals.ametsoc.org/view/journals/phoc/54/12/full-JPO-D-24-0061.1-f1.jpg
 - id: doi:10.1175/jpo-d-22-0145.1
   title: Can We Accurately Quantify a Lateral Diffusivity from a Single Tracer Release?
   authors:
