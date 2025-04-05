@@ -107,18 +107,34 @@ log()
 log("Generating citations")
 
 # List of Journals to include as publishers on the website
-journals = ["Journal of Physical Oceanography", "Journal of Climate", "Nature", 
-            "Geophysical Research Letters", "Journal of Geophysical Research: Oceans",
-            "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",
-            "Frontiers in Climate", "Nature Communications", "Nature Reviews Earth &amp; Environment",
-            "Ocean Mixing", "Climate Dynamics", "Ocean Science", "Annual Review of Marine Science",
-            "Journal of Atmospheric and Oceanic Technology", "Environmental Research Letters",
-            "Ocean Modelling", "Bulletin of the American Meteorological Society", "Scientific Reports",
-            "Science", "Journal of the Atmospheric Sciences", "Nature Climate Change",
-            "Journal of Advances in Modeling Earth Systems",
-            "Geoscientific Model Development",
+journals = [
+            "Annual Review of Marine Science",
+            "Bulletin of the American Meteorological Society", 
+            "Climate Dynamics", 
+            "Environmental Research Letters",
+            "Frontiers in Climate", 
             "Frontiers in Marine Science",
-            "Reviews of Geophysics"]
+            "Geophysical Research Letters", 
+            "Geoscientific Model Development",
+            "Journal of Advances in Modeling Earth Systems",
+            "Journal of Atmospheric and Oceanic Technology", 
+            "Journal of Climate", 
+            "Journal of Fluid Mechanics",
+            "Journal of Geophysical Research: Oceans",
+            "Journal of Physical Oceanography", 
+            "Journal of the Atmospheric Sciences", 
+            "Nature Climate Change",
+            "Nature Communications", 
+            "Nature Reviews Earth &amp; Environment",
+            "Nature", 
+            "Ocean Mixing", 
+            "Ocean Modelling", 
+            "Ocean Science", 
+            "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",
+            "Reviews of Geophysics",
+            "Science", 
+            "Scientific Reports"
+            ]
 
 # list of new citations
 citations = []
