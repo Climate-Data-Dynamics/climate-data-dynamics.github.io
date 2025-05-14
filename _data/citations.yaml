@@ -1,5 +1,17 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1017/jfm.2025.349
+  title: Cabbeling as a catalyst and driver of turbulent mixing
+  authors:
+  - Josef I. Bisits
+  - Jan D. Zika
+  - Taimoor Sohail
+  publisher: Journal of Fluid Mechanics
+  date: '2025-05-01'
+  link: https://doi.org/g9j37d
+  orcid: 0000-0002-6340-4470
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1175/jpo-d-24-0061.1
   title: Does Cabbeling Shape the Thermohaline Structure of High-Latitude Oceans?
   authors:
