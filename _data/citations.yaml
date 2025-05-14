@@ -12,7 +12,7 @@
   orcid: 0000-0002-6340-4470
   plugin: sources.py
   file: sources.yaml
-  image: https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/cabbeling-as-a-catalyst-and-driver-of-turbulent-mixing/ACCC8B44859C0F572677B2293B893958
+  image: https://static.cambridge.org//content/id/urn%3Acambridge.org%3Aid%3Aarticle%3AS0022112025003490/resource/name/optimisedImage-png-S0022112025003490_figAb.jpg?pub-status=live
 - id: doi:10.1175/jpo-d-24-0061.1
   title: Does Cabbeling Shape the Thermohaline Structure of High-Latitude Oceans?
   authors:
