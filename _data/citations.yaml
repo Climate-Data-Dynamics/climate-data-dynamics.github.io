@@ -9,7 +9,7 @@
   publisher: Journal of Fluid Mechanics
   date: '2025-05-13'
   link: https://doi.org/g9j37d
-  orcid: 0000-0002-6340-4470
+  orcid: 0000-0002-4162-3269
   plugin: sources.py
   file: sources.yaml
   image: https://static.cambridge.org//content/id/urn%3Acambridge.org%3Aid%3Aarticle%3AS0022112025003490/resource/name/optimisedImage-png-S0022112025003490_figAb.jpg
@@ -39,6 +39,18 @@
   plugin: sources.py
   file: sources.yaml
   image: https://journals.ametsoc.org/view/journals/phoc/53/2/full-JPO-D-22-0145.1-f2.jpg
+- id: doi:10.1088/1748-9326/adb31c
+  title: Decline of Antarctic Circumpolar Current due to polar ocean freshening
+  authors:
+  - Taimoor Sohail
+  - Bishakhdatta Gayen
+  - Andreas Klocker
+  publisher: Environmental Research Letters
+  date: '2025-03-01'
+  link: https://doi.org/g86t6n
+  orcid: 0000-0002-4162-3269
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.5194/gmd-17-8049-2024
   title: An optimal transformation method for inferring ocean tracer sources and sinks
   authors:
