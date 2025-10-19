@@ -9,7 +9,7 @@
   publisher: Journal of Fluid Mechanics
   date: '2025-05-13'
   link: https://doi.org/g9j37d
-  orcid: 0000-0002-4162-3269
+  orcid: 0000-0003-3462-3559
   plugin: sources.py
   file: sources.yaml
   image: https://static.cambridge.org//content/id/urn%3Acambridge.org%3Aid%3Aarticle%3AS0022112025003490/resource/name/optimisedImage-png-S0022112025003490_figAb.jpg
@@ -406,6 +406,53 @@
   plugin: sources.py
   file: sources.yaml
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-020-15754-3/MediaObjects/41467_2020_15754_Fig1_HTML.png?as=webp
+- id: doi:10.1029/2025jc022445
+  title: The Impact of Antarctic Sea Ice on Southern Ocean Water Mass Transformation
+    in Coupled Climate Models
+  authors:
+  - Zijin Chen
+  - William Hobbs
+  - Zanna Chase
+  - Jan Zika
+  publisher: 'Journal of Geophysical Research: Oceans'
+  date: '2025-09-01'
+  link: https://doi.org/g968t4
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1029/2025gl116409
+  title: "Observed Increase in Tropical Pacific Ocean Surface Cold\u2010Warm Contrast\
+    \ Is Well Outside Model\u2010Simulated Range"
+  authors:
+  - Isabela Conde
+  - Jan Zika
+  - Ryan M. Holmes
+  - Nandini Ramesh
+  publisher: Geophysical Research Letters
+  date: '2025-08-08'
+  link: https://doi.org/g968t5
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1029/2024ms004383
+  title: "Water Mass Transformation Budgets in Finite\u2010Volume Generalized Vertical\
+    \ Coordinate Ocean Models"
+  authors:
+  - Henri F. Drake
+  - Shanice Bailey
+  - Raphael Dussin
+  - Stephen M. Griffies
+  - John Krasting
+  - Graeme MacGilchrist
+  - Geoffrey Stanley
+  - "Jan\u2010Erik Tesdal"
+  - Jan D. Zika
+  publisher: Journal of Advances in Modeling Earth Systems
+  date: '2025-03-01'
+  link: https://doi.org/g968t7
+  orcid: 0000-0003-3462-3559
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1029/2023jc020259
   title: The Ocean's Meridional Oxygen Transport
   authors:
