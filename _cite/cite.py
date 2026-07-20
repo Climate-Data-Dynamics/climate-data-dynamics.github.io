@@ -194,10 +194,16 @@ for index, source in enumerate(sources):
 
     if get_safe(citation, "date", ""):
         citation["date"] = format_date(get_safe(citation, "date", ""))
-        # remove entries that are not from journal publications
-        if citation["publisher"] in journals:
-            # add new citation to list
-            citations.append(citation)
+        # filter citations by type or publisher
+        work_type = get_safe(citation, "type", "")
+        if work_type:
+            # orcid source: filter by work type
+            if work_type in ["journal-article", "preprint"]:
+                citations.append(citation)
+        # else:
+        #     # other sources: filter by publisher list
+        #     if get_safe(citation, "publisher", "") in journals:
+        #         citations.append(citation)
 
 log()
 

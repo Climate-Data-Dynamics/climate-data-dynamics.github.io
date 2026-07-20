@@ -69,8 +69,15 @@ def main(entry):
         ids = []
 
         # use "work-summary" field instead of top-level "external-ids" to reflect author-selected preferred sources
-        for summary in get_safe(work, "work-summary", []):
+        summaries = get_safe(work, "work-summary", [])
+        for summary in summaries:
             ids = ids + get_safe(summary, "external-ids.external-id", [])
+
+        # get work type from summaries
+        work_type = next(
+            (get_safe(s, "type.value", "") for s in summaries if get_safe(s, "type.value", "")),
+            ""
+        )
 
         # filter ids by criteria
         ids = list(filter(filter_id, ids))
@@ -137,6 +144,10 @@ def main(entry):
 
         # copy fields from entry to source
         source.update(entry)
+
+        # add work type from orcid
+        if work_type:
+            source["type"] = work_type
 
         # add source to list
         sources.append(source)
