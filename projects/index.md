@@ -24,4 +24,4 @@ We are involved in a range of projects involving data science, climate theory an
 
 ## More
 
-{% include list.html component="card" data="projects" filters="group: " style="small" %}
+{% include list.html component="card" data="projects" filter="!group" style="small" %}
