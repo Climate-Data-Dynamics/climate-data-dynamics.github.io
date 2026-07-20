@@ -200,10 +200,10 @@ for index, source in enumerate(sources):
             # orcid source: filter by work type
             if work_type in ["journal-article", "preprint"]:
                 citations.append(citation)
-        # else:
-        #     # other sources: filter by publisher list
-        #     if get_safe(citation, "publisher", "") in journals:
-        #         citations.append(citation)
+        else:
+            # other sources: filter by publisher list
+            if get_safe(citation, "publisher", "") in journals:
+                citations.append(citation)
 
 log()
 
