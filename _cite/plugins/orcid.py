@@ -1,6 +1,7 @@
 import json
 from urllib.request import Request, urlopen
 from util import *
+from manubot.cite.handlers import prefix_to_handler as manubot_citable
 
 
 def main(entry):
@@ -14,7 +15,7 @@ def main(entry):
     headers = {"Accept": "application/json"}
 
     # get id from entry
-    _id = entry.get("orcid", "")
+    _id = get_safe(entry, "orcid", "")
     if not _id:
         raise Exception('No "orcid" key')
 
@@ -25,72 +26,111 @@ def main(entry):
         url = endpoint.replace("$ORCID", _id)
         request = Request(url=url, headers=headers)
         response = json.loads(urlopen(request).read())
-        return response.get("group", [])
+        return get_safe(response, "group", [])
 
     response = query(_id)
 
     # list of sources to return
     sources = []
 
-    # go through response structure and pull out ids e.g. doi:1234/56789
-    for work in response:
-        # get list of ids
-        ids = work.get("external-ids", {}).get("external-id", [])
-        for summary in work.get("work-summary", []):
-            ids = ids + summary.get("external-ids", {}).get("external-id", [])
+    # filter id by some criteria. return true to accept, false to reject.
+    def filter_id(_id):
+        # is id of certain "relationship" type
+        relationships = ["self", "version-of", "part-of"]
+        if not get_safe(_id, "external-id-relationship", "") in relationships:
+            return False
 
-        # prefer doi id type, or fallback to first id
-        _id = next(
-            (id for id in ids if id.get("external-id-type", "") == "doi"),
-            ids[0] if len(ids) > 0 else {},
+        id_type = get_safe(_id, "external-id-type", "")
+
+        # is id of certain type
+        # types = ["doi"]
+        # if id_type not in types:
+        #     return False
+
+        # is id citable by manubot
+        if id_type not in manubot_citable:
+            return False
+
+        return True
+
+    # prefer some ids over others by some criteria. return lower number to prefer more.
+    def sort_id(_id):
+        id_type = get_safe(_id, "external-id-type", "")
+        types = [
+            "doi",
+            # "arxiv",
+            # "url",
+        ]
+        return index_of(types, id_type)
+
+    # go through each source
+    for work in response:
+        # list of ids in source
+        ids = []
+
+        # use "work-summary" field instead of top-level "external-ids" to reflect author-selected preferred sources
+        summaries = get_safe(work, "work-summary", [])
+        for summary in summaries:
+            ids = ids + get_safe(summary, "external-ids.external-id", [])
+
+        # get work type from summaries
+        work_type = next(
+            (get_safe(s, "type.value", "") for s in summaries if get_safe(s, "type.value", "")),
+            ""
         )
 
-        # get id and id-type from response
-        id_type = _id.get("external-id-type", "")
-        id_value = _id.get("external-id-value", "")
+        # filter ids by criteria
+        ids = list(filter(filter_id, ids))
+        # sort ids by criteria
+        ids.sort(key=sort_id)
+
+        # pick first available id
+        _id = ids[0] if len(ids) > 0 else None
+
+        # id parts
+        id_type = get_safe(_id, "external-id-type", "")
+        id_value = get_safe(_id, "external-id-value", "")
+
+        # if no available ids, skip source completely
+        # if not id_type or not id_value:
+        #     continue
 
         # create source
-        source = {"id": f"{id_type}:{id_value}"}
+        source = {}
 
-        # if not a doi, Manubot likely can't cite, so keep citation details
-        if id_type != "doi":
+        # if id citable by manubot
+        if id_type and id_value and id_type in manubot_citable:
+            # id to cite with manubot
+            source = {"id": f"{id_type}:{id_value}"}
+
+        # if not citable by manubot, keep citation details from orcid
+        else:
             # get summaries
-            summaries = work.get("work-summary", [])
-
-            # sort summary entries by most recent
-            summaries = sorted(
-                summaries,
-                key=lambda summary: (
-                    summary.get("last-modified-date", {}).get("value", 0)
-                )
-                or summary.get("created-date", {}).get("value", 0)
-                or 0,
-                reverse=True,
-            )
+            summaries = get_safe(work, "work-summary", [])
 
             # get first summary with defined sub-value
             def first(get_func):
-                return next(value for value in map(get_func, summaries) if value)
+                return next(
+                    (value for value in map(get_func, summaries) if value), None
+                )
 
             # get title
-            title = first(
-                lambda s: s.get("title", {}).get("title", {}).get("value", "")
-            )
+            title = first(lambda s: get_safe(s, "title.title.value", ""))
 
             # get publisher
-            publisher = first(lambda s: s.get("journal-title", {}).get("value", ""))
+            publisher = first(lambda s: get_safe(s, "journal-title.value", ""))
 
             # get date
             date = (
-                work.get("last-modified-date", {}).get("value", 0)
-                or first(lambda s: s.get("last-modified-date", {}).get("value", 0))
-                or work.get("created-date", {}).get("value", 0)
-                or first(lambda s: s.get("created-date", {}).get("value", 0))
+                get_safe(work, "last-modified-date.value")
+                or first(lambda s: get_safe(s, "last-modified-date.value"))
+                or get_safe(work, "created-date.value")
+                or first(lambda s: get_safe(s, "created-date.value"))
                 or 0
             )
 
             # get link
-            link = first(lambda s: s.get("url", {}).get("value", ""))
+            link = first(lambda s: get_safe(s, "url.value", ""))
 
             # keep available details
             if title:
@@ -104,6 +144,10 @@ def main(entry):
 
         # copy fields from entry to source
         source.update(entry)
+
+        # add work type from orcid
+        if work_type:
+            source["type"] = work_type
 
         # add source to list
         sources.append(source)

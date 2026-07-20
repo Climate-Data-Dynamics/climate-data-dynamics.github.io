@@ -2,6 +2,7 @@
 cite process to convert sources and metasources into full citations
 """
 
+import traceback
 from importlib import import_module
 from pathlib import Path
 from dotenv import load_dotenv
@@ -12,8 +13,9 @@ from util import *
 load_dotenv()
 
 
-# error flag
-error = False
+# save errors/warnings for reporting at end
+errors = []
+warnings = []
 
 # output citations file
 output_file = "_data/citations.yaml"
@@ -23,7 +25,7 @@ log()
 
 log("Compiling sources")
 
-# master list of sources
+# compiled list of sources
 sources = []
 
 # in-order list of plugins to run
@@ -40,60 +42,69 @@ for plugin in plugins:
     files = Path.cwd().glob(f"_data/{plugin.stem}*.*")
     files = list(filter(lambda p: p.suffix in [".yaml", ".yml", ".json"], files))
 
-    log(f"Found {len(files)} {plugin.stem}* data file(s)", 1)
+    log(f"Found {len(files)} {plugin.stem}* data file(s)", indent=1)
 
     # loop through data files
     for file in files:
-        log(f"Processing data file {file.name}", 1)
+        log(f"Processing data file {file.name}", indent=1)
 
         # load data from file
         try:
             data = load_data(file)
             # check if file in correct format
             if not list_of_dicts(data):
-                raise Exception("File not a list of dicts")
+                raise Exception(f"{file.name} data file not a list of dicts")
         except Exception as e:
-            log(e, 2, "ERROR")
-            error = True
+            log(e, indent=2, level="ERROR")
+            errors.append(e)
             continue
 
         # loop through data entries
         for index, entry in enumerate(data):
-            log(f"Processing entry {index + 1} of {len(data)}, {label(entry)}", 2)
+            log(f"Processing entry {index + 1} of {len(data)}, {label(entry)}", level=2)
 
             # run plugin on data entry to expand into multiple sources
             try:
-                entry = import_module(f"plugins.{plugin.stem}").main(entry)
+                expanded = import_module(f"plugins.{plugin.stem}").main(entry)
                 # check that plugin returned correct format
-                if not list_of_dicts(entry):
-                    raise Exception("Plugin didn't return list of dicts")
+                if not list_of_dicts(expanded):
+                    raise Exception(f"{plugin.stem} plugin didn't return list of dicts")
+            # catch any plugin error
             except Exception as e:
-                log(e, 3, "ERROR")
-                error = True
+                # log detailed pre-formatted/colored trace
+                print(traceback.format_exc())
+                # log high-level error
+                log(e, indent=3, level="ERROR")
+                errors.append(e)
                 continue
 
             # loop through sources
-            for source in entry:
+            for source in expanded:
                 if plugin.stem != "sources":
-                    log(label(source), 3)
+                    log(label(source), level=3)
 
                 # include meta info about source
                 source["plugin"] = plugin.name
                 source["file"] = file.name
-                # add source to master list
+
+                # add source to compiled list
                 sources.append(source)
 
             if plugin.stem != "sources":
-                log(f"{len(entry)} source(s)", 3)
+                log(f"{len(expanded)} source(s)", indent=3)
 
+
+log("Merging sources by id")
 
 # merge sources with matching (non-blank) ids
 for a in range(0, len(sources)):
-    _id = sources[a].get("id", "")
-    if not _id:
+    a_id = get_safe(sources, f"{a}.id", "")
+    if not a_id:
         continue
     for b in range(a + 1, len(sources)):
-        if sources[b].get("id", "").lower() == _id.lower():
+        b_id = get_safe(sources, f"{b}.id", "")
+        if b_id == a_id:
+            log(f"Found duplicate {b_id}", indent=2)
             sources[a].update(sources[b])
             sources[b] = {}
 sources = [entry for entry in sources if entry]
@@ -109,30 +120,30 @@ log("Generating citations")
 # List of Journals to include as publishers on the website
 journals = [
             "Annual Review of Marine Science",
-            "Bulletin of the American Meteorological Society", 
-            "Climate Dynamics", 
+            "Bulletin of the American Meteorological Society",
+            "Climate Dynamics",
             "Environmental Research Letters",
-            "Frontiers in Climate", 
+            "Frontiers in Climate",
             "Frontiers in Marine Science",
-            "Geophysical Research Letters", 
+            "Geophysical Research Letters",
             "Geoscientific Model Development",
             "Journal of Advances in Modeling Earth Systems",
-            "Journal of Atmospheric and Oceanic Technology", 
-            "Journal of Climate", 
+            "Journal of Atmospheric and Oceanic Technology",
+            "Journal of Climate",
             "Journal of Fluid Mechanics",
             "Journal of Geophysical Research: Oceans",
-            "Journal of Physical Oceanography", 
-            "Journal of the Atmospheric Sciences", 
+            "Journal of Physical Oceanography",
+            "Journal of the Atmospheric Sciences",
             "Nature Climate Change",
-            "Nature Communications", 
+            "Nature Communications",
             "Nature Reviews Earth &amp; Environment",
-            "Nature", 
-            "Ocean Mixing", 
-            "Ocean Modelling", 
-            "Ocean Science", 
+            "Nature",
+            "Ocean Mixing",
+            "Ocean Modelling",
+            "Ocean Science",
             "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",
             "Reviews of Geophysics",
-            "Science", 
+            "Science",
             "Scientific Reports"
             ]
 
@@ -143,42 +154,56 @@ citations = []
 for index, source in enumerate(sources):
     log(f"Processing source {index + 1} of {len(sources)}, {label(source)}")
 
+    # if explicitly flagged, remove/ignore entry
+    if get_safe(source, "remove", False) == True:
+        continue
+
     # new citation data for source
     citation = {}
 
     # source id
-    _id = source.get("id", "").strip()
+    _id = get_safe(source, "id", "").strip()
 
-    # Manubot doesn't work without an id
+    # manubot doesn't work without an id
     if _id:
-        log("Using Manubot to generate citation", 1)
+        log("Using Manubot to generate citation", indent=1)
 
         try:
-            # run Manubot and set citation
+            # run manubot and set citation
             citation = cite_with_manubot(_id)
 
-        # if Manubot cannot cite source
+        # if manubot cannot cite source
         except Exception as e:
+            plugin = get_safe(source, "plugin", "")
+            file = get_safe(source, "file", "")
             # if regular source (id entered by user), throw error
-            if source.get("plugin", "") == "sources.py":
-                log(e, 3, "ERROR")
-                error = True
-            # otherwise, if from metasource (id retrieved from some third-party API), just warn
+            if plugin == "sources.py":
+                log(e, indent=3, level="ERROR")
+                errors.append(f"Manubot could not generate citation for source {_id}")
+            # otherwise, if from metasource (id retrieved from some third-party api), just warn
             else:
-                log(e, 3, "WARNING")
-                # discard source
-                # continue
+                log(e, indent=3, level="WARNING")
+                warnings.append(
+                    f"Manubot could not generate citation for source {_id} (from {file} with {plugin})"
+                )
+                # discard source from citations
+                continue
 
     # preserve fields from input source, overriding existing fields
     citation.update(source)
 
-    # ensure date in proper format for correct date sorting
-    if citation.get("date", ""):
-        citation["date"] = format_date(citation.get("date", ""))
-        # remove entries that are not from journal publications
-        if citation["publisher"] in journals:
-            # add new citation to list
-            citations.append(citation)
+    if get_safe(citation, "date", ""):
+        citation["date"] = format_date(get_safe(citation, "date", ""))
+        # filter citations by type or publisher
+        work_type = get_safe(citation, "type", "")
+        if work_type:
+            # orcid source: filter by work type
+            if work_type in ["journal-article", "preprint"]:
+                citations.append(citation)
+        # else:
+        #     # other sources: filter by publisher list
+        #     if get_safe(citation, "publisher", "") in journals:
+        #         citations.append(citation)
 
 log()
 
@@ -189,14 +214,26 @@ try:
     save_data(output_file, citations)
 except Exception as e:
     log(e, level="ERROR")
-    error = True
+    errors.append(e)
 
 
-# exit at end, so user can see all errors in one run
-if error:
-    log("Error(s) occurred above", level="ERROR")
+log()
+
+
+# exit at end, so user can see all errors/warnings in one run
+if len(warnings):
+    log(f"{len(warnings)} warning(s) occurred above", level="WARNING")
+    for warning in warnings:
+        log(warning, indent=1, level="WARNING")
+
+if len(errors):
+    log(f"{len(errors)} error(s) occurred above", level="ERROR")
+    for error in errors:
+        log(error, indent=1, level="ERROR")
+    log()
     exit(1)
+
 else:
     log("All done!", level="SUCCESS")
 
-log("\n")
+log()
