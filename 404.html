@@ -37,6 +37,10 @@
 
 
 
+
+
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>404 | Climate Data and Dynamics Lab</title>
@@ -49,13 +53,13 @@
 <meta property="og:title" content="404">
 <meta property="og:site_title" content="Climate Data and Dynamics Lab">
 <meta property="og:description" content="based in Sydney, Australia. We are a team of data scientists and physicists using a range of tools from cutting edge statistics to process driven dynamical models to understand the ocean and climate">
-<meta property="og:url" content="">
+<meta property="og:url" content="https://climate-data-dynamics.github.io">
 <meta property="og:image" content="/images/share.png">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="404">
 <meta property="twitter:description" content="based in Sydney, Australia. We are a team of data scientists and physicists using a range of tools from cutting edge statistics to process driven dynamical models to understand the ocean and climate">
-<meta property="twitter:url" content="">
+<meta property="twitter:url" content="https://climate-data-dynamics.github.io">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.png">
 
@@ -76,11 +80,11 @@
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
     },
-    "url": ""
+    "url": "https://climate-data-dynamics.github.io"
   }
 </script>
 
-<link rel="alternate" type="application/rss+xml" href="/feed.xml">
+<link rel="alternate" type="application/rss+xml" href="https://climate-data-dynamics.github.io/feed.xml">
 
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
@@ -90,9 +94,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -156,6 +160,10 @@
 
   
     <link href="/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/details.css" rel="stylesheet">
   
 
   
@@ -303,6 +311,8 @@
 
   <script src="/_scripts/site-search.js"></script>
 
+  <script src="/_scripts/table-wrap.js"></script>
+
   <script src="/_scripts/tooltip.js"></script>
 
 
@@ -327,12 +337,12 @@
       </span>
     
     
-      <span class="title" data-tooltip="Home">
+      <span class="title-text" data-tooltip="Home">
         
-          <span>Climate Data and Dynamics Lab</span>
+          <span class="title">Climate Data and Dynamics Lab</span>
         
         
-          <span>based in Sydney, Australia</span>
+          <span class="subtitle">based in Sydney, Australia</span>
         
       </span>
     
@@ -375,11 +385,8 @@
   modify main content of page:
   - add section breaks
   - attach section properties
-  - wrap each table in div to allow for scrolling
   - filter out blank sections
 -->
-
-
 
 
 

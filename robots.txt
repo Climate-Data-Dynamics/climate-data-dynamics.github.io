@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://climate-data-dynamics.github.io/sitemap.xml

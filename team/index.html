@@ -37,6 +37,10 @@
 
 
 
+
+
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Team | Climate Data and Dynamics Lab</title>
@@ -49,13 +53,13 @@
 <meta property="og:title" content="Team">
 <meta property="og:site_title" content="Climate Data and Dynamics Lab">
 <meta property="og:description" content="based in Sydney, Australia. We are a team of data scientists and physicists using a range of tools from cutting edge statistics to process driven dynamical models to understand the ocean and climate">
-<meta property="og:url" content="">
+<meta property="og:url" content="https://climate-data-dynamics.github.io">
 <meta property="og:image" content="/images/share.png">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="Team">
 <meta property="twitter:description" content="based in Sydney, Australia. We are a team of data scientists and physicists using a range of tools from cutting edge statistics to process driven dynamical models to understand the ocean and climate">
-<meta property="twitter:url" content="">
+<meta property="twitter:url" content="https://climate-data-dynamics.github.io">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.png">
 
@@ -76,11 +80,11 @@
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
     },
-    "url": ""
+    "url": "https://climate-data-dynamics.github.io"
   }
 </script>
 
-<link rel="alternate" type="application/rss+xml" href="/feed.xml">
+<link rel="alternate" type="application/rss+xml" href="https://climate-data-dynamics.github.io/feed.xml">
 
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
@@ -90,9 +94,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -156,6 +160,10 @@
 
   
     <link href="/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/details.css" rel="stylesheet">
   
 
   
@@ -330,6 +338,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -352,6 +362,8 @@
   <script src="/_scripts/search.js"></script>
 
   <script src="/_scripts/site-search.js"></script>
+
+  <script src="/_scripts/table-wrap.js"></script>
 
   <script src="/_scripts/tooltip.js"></script>
 
@@ -377,12 +389,12 @@
       </span>
     
     
-      <span class="title" data-tooltip="Home">
+      <span class="title-text" data-tooltip="Home">
         
-          <span>Climate Data and Dynamics Lab</span>
+          <span class="title">Climate Data and Dynamics Lab</span>
         
         
-          <span>based in Sydney, Australia</span>
+          <span class="subtitle">based in Sydney, Australia</span>
         
       </span>
     
@@ -425,11 +437,8 @@
   modify main content of page:
   - add section breaks
   - attach section properties
-  - wrap each table in div to allow for scrolling
   - filter out blank sections
 -->
-
-
 
 
 
@@ -453,199 +462,193 @@
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <div class="portrait-wrapper">
   <a href="/members/jan-zika.html" class="portrait" data-style="" aria-label="Jan Zika">
+    
+
     <img src="/images/Jan_Zika_Profile_Pic_2019zoomin.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Jan Zika
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-microscope"></i>
-            <span>Principal Investigator</span>
-          </span>
-        
+      <span class="portrait-name">
+        Jan Zika
       </span>
+    
+
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/Saurabh-Rathore.html" class="portrait" data-style="" aria-label="Saurabh Rathore">
+    
+      <i class="icon fa-solid fa-glasses"></i>
+    
+
     <img src="/images/Saurabh_headshot.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Saurabh Rathore
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-glasses"></i>
-            <span>Post-doctoral Research Associate</span>
-          </span>
-        
+      <span class="portrait-name">
+        Saurabh Rathore
       </span>
+    
+
+    
+      <span class="portrait-description">
+        Post-doctoral Research Associate
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/evea-piedagnel.html" class="portrait" data-style="" aria-label="Evéa Piedagnel">
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
+    
+
     <img src="/images/Evea_headshot.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Evéa Piedagnel
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-graduation-cap"></i>
-            <span>Masters student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Evéa Piedagnel
       </span>
+    
+
+    
+      <span class="portrait-description">
+        Masters student
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/isabela-conde.html" class="portrait" data-style="" aria-label="Isabela Conde">
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
+    
+
     <img src="/images/isabela_headshot.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Isabela Conde
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-graduation-cap"></i>
-            <span>PhD Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Isabela Conde
       </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/jordan-lorenzatto.html" class="portrait" data-style="" aria-label="Jordan Lorenzatto">
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
+    
+
     <img src="/images/jordan_headshot.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Jordan Lorenzatto
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-graduation-cap"></i>
-            <span>PhD Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Jordan Lorenzatto
       </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/josef-bisits.html" class="portrait" data-style="" aria-label="Josef Bisits">
+    
+      <i class="icon fa-solid fa-glasses"></i>
+    
+
     <img src="/images/joey-headshot.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Josef Bisits
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-glasses"></i>
-            <span>Postdoctoral Researcher</span>
-          </span>
-        
+      <span class="portrait-name">
+        Josef Bisits
       </span>
+    
+
+    
+      <span class="portrait-description">
+        Postdoctoral Researcher
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/krishiv-kukreja.html" class="portrait" data-style="" aria-label="Krishiv Kukreja">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
     <img src="/images/krishiv_headshot.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Krishiv Kukreja
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-user-graduate"></i>
-            <span>Undergraduate Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Krishiv Kukreja
       </span>
+    
+
+    
+      <span class="portrait-description">
+        Undergraduate Student
+      </span>
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/taimoor-sohail.html" class="portrait" data-style="" aria-label="Taimoor Sohail">
+    
+      <i class="icon fa-solid fa-glasses"></i>
+    
+
     <img src="/images/taimoor_headshot.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Taimoor Sohail
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-glasses"></i>
-            <span>Post-doctoral Research Associate</span>
-          </span>
-        
+      <span class="portrait-name">
+        Taimoor Sohail
       </span>
+    
+
+    
+      <span class="portrait-description">
+        Post-doctoral Research Associate
+      </span>
+    
+
     
   </a>
 </div>
@@ -657,9 +660,9 @@
 
   <section class="background" data-size="2" data-dark="true" style="--image: url('/images/background.jpg')">
     <!--
-  background: images/background.jpg;
-  dark: true;
-  size: 2;
+  <background>images/background.jpg</background>
+  <dark>true</dark>
+  <size>2</size>
 -->
 
 <p>We work within the School of Mathematics and Statistcis and the Climate Change Research Centre at at the University of New South Wales and are also linked to a range of national projects. See the links below.</p>
@@ -671,9 +674,9 @@
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <div class="grid" data-style="square">
