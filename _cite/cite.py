@@ -103,7 +103,7 @@ for a in range(0, len(sources)):
         continue
     for b in range(a + 1, len(sources)):
         b_id = get_safe(sources, f"{b}.id", "")
-        if b_id == a_id:
+        if b_id.lower() == a_id.lower():
             log(f"Found duplicate {b_id}", indent=2)
             sources[a].update(sources[b])
             sources[b] = {}
