@@ -15,8 +15,9 @@
   link: https://doi.org/hbsbzx
   orcid: 0000-0002-6340-4470
   type: journal-article
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0043135426003684-gr9.jpg
 - id: doi:10.1017/jfm.2025.349
   title: Cabbeling as a catalyst and driver of turbulent mixing
   authors:
@@ -31,7 +32,7 @@
   plugin: sources.py
   file: sources.yaml
   image: https://static.cambridge.org//content/id/urn%3Acambridge.org%3Aid%3Aarticle%3AS0022112025003490/resource/name/optimisedImage-png-S0022112025003490_figAb.jpg
-- id: doi:10.1175/JPO-D-24-0061.1
+- id: doi:10.1175/jpo-d-24-0061.1
   title: Does Cabbeling Shape the Thermohaline Structure of High-Latitude Oceans?
   authors:
   - Josef I. Bisits
@@ -40,10 +41,11 @@
   publisher: Journal of Physical Oceanography
   date: '2024-12-01'
   link: https://doi.org/g8t62t
-  orcid: 0000-0002-6340-4470
+  orcid: 0000-0003-3462-3559
   type: journal-article
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/phoc/54/12/full-JPO-D-24-0061.1-f1.jpg
 - id: doi:10.1175/jpo-d-22-0145.1
   title: Can We Accurately Quantify a Lateral Diffusivity from a Single Tracer Release?
   authors:
@@ -69,8 +71,9 @@
   link: https://doi.org/g968t6
   orcid: 0000-0003-3462-3559
   type: journal-article
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://journals.ametsoc.org/view/journals/aies/4/3/inline-AIES-D-24-0089.1-f3.jpg
 - id: doi:10.1088/1748-9326/adb31c
   title: Decline of Antarctic Circumpolar Current due to polar ocean freshening
   authors:
@@ -512,8 +515,9 @@
   link: https://doi.org/g968t4
   orcid: 0000-0003-3462-3559
   type: journal-article
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/1bbce4cd-0939-4a1e-898e-3151a320667d/jgrc26611-fig-0005-m.jpg
 - id: doi:10.1029/2025gl116409
   title: "Observed Increase in Tropical Pacific Ocean Surface Cold\u2010Warm Contrast\
     \ Is Well Outside Model\u2010Simulated Range"
@@ -527,8 +531,9 @@
   link: https://doi.org/g968t5
   orcid: 0000-0003-3462-3559
   type: journal-article
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/aabb0c57-9a4a-4b74-ac1e-d6a973167773/grl70987-fig-0005-m.jpg
 - id: doi:10.1029/2024ms004383
   title: "Water Mass Transformation Budgets in Finite\u2010Volume Generalized Vertical\
     \ Coordinate Ocean Models"
@@ -547,22 +552,9 @@
   link: https://doi.org/g968t7
   orcid: 0000-0003-3462-3559
   type: journal-article
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1175/jpo-d-24-0061.1
-  title: Does Cabbeling Shape the Thermohaline Structure of High-Latitude Oceans?
-  authors:
-  - Josef I. Bisits
-  - Jan D. Zika
-  - Dafydd Gwyn Evans
-  publisher: Journal of Physical Oceanography
-  date: '2024-12-01'
-  link: https://doi.org/g8t62t
-  orcid: 0000-0003-3462-3559
-  type: journal-article
   plugin: sources.py
   file: sources.yaml
-  image: https://journals.ametsoc.org/view/journals/phoc/54/12/full-JPO-D-24-0061.1-f1.jpg
+  image: https://agupubs.onlinelibrary.wiley.com/cms/asset/8491c616-ee08-4103-95a0-446ae0856941/jame70017-fig-0001-m.jpg
 - id: doi:10.1029/2023jc020259
   title: The Ocean's Meridional Oxygen Transport
   authors:
