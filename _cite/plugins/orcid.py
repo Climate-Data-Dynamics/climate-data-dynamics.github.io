@@ -75,7 +75,7 @@ def main(entry):
 
         # get work type from summaries
         work_type = next(
-            (get_safe(s, "type.value", "") for s in summaries if get_safe(s, "type.value", "")),
+            (get_safe(s, "type", "") for s in summaries if get_safe(s, "type", "")),
             ""
         )
 
