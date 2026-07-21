@@ -118,6 +118,8 @@ log()
 log("Generating citations")
 
 # List of Journals to include as publishers on the website
+# this is only for when the citation is **not** retrieved from
+# an ORCID id.
 journals = [
             "Annual Review of Marine Science",
             "Bulletin of the American Meteorological Society",
