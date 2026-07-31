@@ -1,6 +1,6 @@
 ---
 name: Greta Paget
-image: images/greta_headshot.png
+image: images/greta_headshot.jpeg
 description: PhD student
 role: phd
 links:
