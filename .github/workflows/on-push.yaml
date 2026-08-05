@@ -1,15 +1,17 @@
 name: on-push
-run-name: on push to main
+run-name: On push to main
 
 on:
+  # run on commit to main branch
   push:
     branches:
       - main
 
-  # run if user manually requests it
+  # run manually by user
   workflow_dispatch:
 
 permissions:
+  actions: read
   contents: write
   pull-requests: write
 

@@ -1,15 +1,16 @@
 name: on-schedule
-run-name: on schedule
+run-name: On schedule
 
 on:
+  # run periodically
   schedule:
-    # weekly
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * 1"
 
-  # run if user manually requests it
+  # run manually by user
   workflow_dispatch:
 
 permissions:
+  actions: read
   contents: write
   pull-requests: write
 
