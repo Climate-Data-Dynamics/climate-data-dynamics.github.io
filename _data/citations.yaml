@@ -1,5 +1,20 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1017/jfm.2026.11889
+  title: Determining how nonlinearities in the equation of state affect diffusive
+    interfaces in the ocean
+  authors:
+  - Josef I. Bisits
+  - Trevor J. McDougall
+  - Jan D. Zika
+  publisher: Journal of Fluid Mechanics
+  date: '2026-08-04'
+  link: https://doi.org/hcdm5p
+  orcid: 0000-0002-6340-4470
+  type: journal-article
+  plugin: sources.py
+  file: sources.yaml
+  image: https://static.cambridge.org/content/id/urn%3Acambridge.org%3Aid%3Aarticle%3AS0022112026118898/resource/name/S0022112026118898_figAb.png
 - id: doi:10.1016/j.watres.2026.125686
   title: 'Swimming in urban estuaries: Understanding stormwater contamination events
     and recovery from historical data'
