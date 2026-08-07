@@ -1,5 +1,30 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1017/jfm.2026.11889
+  title: Determining how nonlinearities in the equation of state affect diffusive
+    interfaces in the ocean
+  authors:
+  - Josef I. Bisits
+  - Trevor J. McDougall
+  - Jan D. Zika
+  publisher: Journal of Fluid Mechanics
+  date: '2026-08-04'
+  link: https://doi.org/hcdm5p
+  orcid: 0000-0002-6340-4470
+  type: journal-article
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1017/S0004972726101750
+  title: NONLINEAR CONTROLS ON OCEAN CIRCULATION AND MIXING IN THE HIGH-LATITUDE OCEANS
+  authors:
+  - JOSEF I. BISITS
+  publisher: Bulletin of the Australian Mathematical Society
+  date: '2026-08-05'
+  link: https://doi.org/hcdvng
+  orcid: 0000-0002-6340-4470
+  type: journal-article
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.watres.2026.125686
   title: 'Swimming in urban estuaries: Understanding stormwater contamination events
     and recovery from historical data'
