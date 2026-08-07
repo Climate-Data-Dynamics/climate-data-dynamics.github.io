@@ -7,7 +7,7 @@ links:
   email: krishiv1053@gmail.com
   github: KKukreja-code
   orcid: 0009-0000-1957-300X
-  home-page: krishivkukreja.com
+  home-page: https://krishivkukreja.com/
   linkedin: krishiv-kukreja
 ---
 
