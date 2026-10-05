@@ -10,7 +10,7 @@
   publisher: Journal of Fluid Mechanics
   date: '2026-08-04'
   link: https://doi.org/hcdm5p
-  orcid: 0000-0002-6340-4470
+  orcid: 0000-0003-3462-3559
   type: journal-article
   plugin: sources.py
   file: sources.yaml
@@ -87,6 +87,56 @@
   plugin: sources.py
   file: sources.yaml
   image: https://journals.ametsoc.org/view/journals/phoc/53/2/full-JPO-D-22-0145.1-f2.jpg
+- id: doi:10.1088/3049-4753/ae7113
+  title: How accurate are salinity measurements around Antarctica? A machine learning
+    based approach
+  authors:
+  - Taimoor Sohail
+  - Jan D Zika
+  - Tobias Ehmen
+  publisher: 'Machine Learning: Earth'
+  date: '2026-06-16'
+  link: https://doi.org/hckvb8
+  orcid: 0000-0003-3462-3559
+  type: journal-article
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41558-026-02748-0
+  title: Increasing LGBTQIA+ inclusion in climate science
+  authors:
+  - Andrew D. King
+  - Alex Borowiak
+  - Ruchit Kulkarni
+  - Kimberley J. Reid
+  - Taimoor Sohail
+  - Gen Tolhurst
+  - Anna Zehrung
+  publisher: Nature Climate Change
+  date: '2026-09-21'
+  link: https://doi.org/hckvb9
+  orcid: 0000-0002-4162-3269
+  type: journal-article
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.5194/os-22-257-2026
+  title: Bottom mixed layer derivation and spatial variability over the central and
+    eastern abyssal Pacific Ocean
+  authors:
+  - Jessica Kolbusz
+  - Devin Harrison
+  - Nicole Jones
+  - Joanne O'Callaghan
+  - Taimoor Sohail
+  - Todd Bond
+  - Heather Stewart
+  - Alan Jamieson
+  publisher: Ocean Science
+  date: '2026-01-22'
+  link: https://doi.org/hckvcb
+  orcid: 0000-0002-4162-3269
+  type: journal-article
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1175/aies-d-24-0089.1
   title: Mapping Ocean Salinity Data Using Gaussian Mixture Modeling
   authors:
@@ -529,6 +579,36 @@
   plugin: sources.py
   file: sources.yaml
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-020-15754-3/MediaObjects/41467_2020_15754_Fig1_HTML.png?as=webp
+- id: doi:10.1029/2026jc024388
+  title: "Attribution of the Spread in Antarctic Sea Ice\u2010Driven Water Mass Transformation\
+    \ in Coupled Climate Models"
+  authors:
+  - Zijin Chen
+  - William Hobbs
+  - Zanna Chase
+  - Jan Zika
+  publisher: 'Journal of Geophysical Research: Oceans'
+  date: '2026-09-01'
+  link: https://doi.org/hckzdn
+  orcid: 0000-0003-3462-3559
+  type: journal-article
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1175/aies-d-25-0078.1
+  title: Kernel-Based Machine Learning Approach for Large-Scale Predictions of Southern
+    Ocean Net Primary Production
+  authors:
+  - Gian Giacomo Navarra
+  - Curtis Deutsch
+  - Aakash Sane
+  - Jan D. Zika
+  publisher: Artificial Intelligence for the Earth Systems
+  date: '2026-07-01'
+  link: https://doi.org/hckzdp
+  orcid: 0000-0003-3462-3559
+  type: journal-article
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1029/2025jc022445
   title: The Impact of Antarctic Sea Ice on Southern Ocean Water Mass Transformation
     in Coupled Climate Models
